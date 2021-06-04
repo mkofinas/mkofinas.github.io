@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: mkofinas.github.io/sitemap.xml
