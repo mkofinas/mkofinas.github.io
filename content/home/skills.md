@@ -6,6 +6,7 @@ widget: featurette
 # This file represents a page section.
 headless: true
 
+active: false
 # Order that this section appears on the page.
 weight: 30
 
@@ -33,7 +34,7 @@ feature:
 #- icon: ":smile:"
 #  icon_pack: "emoji"
 #  name: "Emojiness"
-#  description: "100%"  
+#  description: "100%"
 
 # Uncomment to use custom SVG icons.
 # Place your custom SVG icon in `assets/media/icons/`.

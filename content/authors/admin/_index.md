@@ -1,26 +1,26 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Miltiadis Kofinas
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD student in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: VIS Lab, University of Amsterdam
+  url: https://ivi.fnwi.uva.nl/vislab/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include future spatiotemporal forecasting, graph neural networks, equivariance.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Deep Learning
+- Future Spatiotemporal Forecasting
+- Graph Neural Networks
 
 # Education to show in About widget
 education:
@@ -36,19 +36,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: 'mailto:m.kofinas@uva.nl'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/MiltosKofinas
+- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=Ur5BV8MAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/mkofinas
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/miltiadiskofinas
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -64,8 +64,15 @@ email: ""
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a 2nd year PhD student in the [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/)
+at the University of Amsterdam, supervised by [Efstratios Gavves](https://egavves.com/).
+My research interests include future spatiotemporal forecasting, graph neural networks, equivariance.
+<!-- url: https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+<!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford
+AI Lab. His research interests include distributed robotics, mobile computing
+and programmable matter. He leads the Robotic Neurobiology group, which develops
+self-reconfiguring robots, systems of self-organizing robots, and mobile sensor
+networks. -->
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
