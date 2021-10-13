@@ -14,18 +14,22 @@ organizations:
   url: https://ivi.fnwi.uva.nl/vislab/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include future spatiotemporal forecasting, graph neural networks, equivariance.
+bio: Future spatio-temporal forecasting, graph neural networks, temporal dynamics
 
 # Interests to show in About widget
 interests:
 - Deep Learning
-- Future Spatiotemporal Forecasting
+- Computer Vision
+- Future Spatio-temporal Forecasting
+- Temporal Dynamics
 - Graph Neural Networks
+- Geometric Deep Learning
+- Equivariant representations
 
 # Education to show in About widget
 education:
   courses:
-  - course: Diploma (MSc equivalent) in Electrical and Computer Engineering
+  - course: Diploma (M.Sc. equivalent) in Electrical and Computer Engineering
     institution: Aristotle University of Thessaloniki
     year: 2018
 
@@ -43,12 +47,15 @@ social:
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.com/citations?user=Ur5BV8MAAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/mkofinas
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/miltiadiskofinas
+- icon: github
+  icon_pack: fab
+  link: https://github.com/mkofinas
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/mkofinas
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -64,15 +71,20 @@ email: ""
 highlight_name: true
 ---
 
-I am a 2nd year PhD student in the [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/)
+I am a PhD student in the [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/)
 at the University of Amsterdam, supervised by [Efstratios Gavves](https://egavves.com/).
-My research interests include future spatiotemporal forecasting, graph neural networks, equivariance.
-<!-- url: https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate -->
+My research focuses on future spatio-temporal forecasting, with applications on
+forecasting for autonomous vehicles.
+My research interests include graph neural networks,
+temporal dynamics, geometric deep learning and equivariant representations.
 
-<!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford
-AI Lab. His research interests include distributed robotics, mobile computing
-and programmable matter. He leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor
-networks. -->
+Prior to my PhD, I received a Diploma in Electrical and Computer Engineering
+from the Aristotle University of Thessaloniki. For my Diploma thesis,
+I researched the topic of Scene Graph Generation using Graph Neural Networks.
+During my studies, I was a computer vision & machine learning engineer at
+[P.A.N.D.O.R.A. Robotics](https://pandora.ee.auth.gr/pandora-robotics/).
+
+
+<!-- url: https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate -->
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
