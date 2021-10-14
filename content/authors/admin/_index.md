@@ -1,5 +1,6 @@
 ---
 # Display name
+
 title: Miltiadis Kofinas
 
 # Is this the primary user of the site?
@@ -71,8 +72,11 @@ email: ""
 highlight_name: true
 ---
 
-I am a PhD student in the [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/)
-at the University of Amsterdam, supervised by [Efstratios Gavves](https://egavves.com/).
+My name is Miltiadis Kofinas
+<sup>{{< staticref "https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate" "newtab" >}}{{< icon name="volume-up" pack="fas" >}}{{< /staticref >}}</sup>
+and I am a PhD student in the [Video & Image Sense
+Lab](https://ivi.fnwi.uva.nl/vislab/) at the University of Amsterdam, supervised
+by [Efstratios Gavves](https://egavves.com/).
 My research focuses on future spatio-temporal forecasting, with applications on
 forecasting for autonomous vehicles.
 My research interests include graph neural networks,
@@ -84,7 +88,5 @@ I researched the topic of Scene Graph Generation using Graph Neural Networks.
 During my studies, I was a computer vision & machine learning engineer at
 [P.A.N.D.O.R.A. Robotics](https://pandora.ee.auth.gr/pandora-robotics/).
 
-
-<!-- url: https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate -->
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< audio src="markvard.mp3" >}} -->
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
