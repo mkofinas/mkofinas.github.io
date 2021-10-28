@@ -52,7 +52,7 @@ url_code: 'https://github.com/mkofinas/locs'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'neurips_2021_presentation.pdf'
 url_source: ''
 url_video: ''
 
