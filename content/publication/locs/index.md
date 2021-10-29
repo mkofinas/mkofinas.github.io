@@ -45,7 +45,7 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: arXiv
-  url: http://arxiv.org
+  url: https://arxiv.org/abs/2110.14961
 
 url_pdf: ''
 url_code: 'https://github.com/mkofinas/locs'
