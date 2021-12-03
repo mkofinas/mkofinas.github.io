@@ -45,6 +45,10 @@ featured: true
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2110.14961
+- name: OpenReview
+  url: https://openreview.net/forum?id=c3RKZas9am
+- name: NeurIPS Video
+  url: https://neurips.cc/virtual/2021/poster/28076
 
 url_pdf: ''
 url_code: 'https://github.com/mkofinas/locs'
