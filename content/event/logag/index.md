@@ -32,7 +32,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'LoGaG: Learning on Graphs and Geometry Reading Group'
   focal_point: Right
 
 # links:
