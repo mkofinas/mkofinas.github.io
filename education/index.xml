@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education | Miltiadis Kofinas</title>
+    <link>https://mkofinas.github.io/education/</link>
+      <atom:link href="https://mkofinas.github.io/education/index.xml" rel="self" type="application/rss+xml" />
+    <description>Education</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
+      <title>Education</title>
+      <link>https://mkofinas.github.io/education/</link>
+    </image>
+    
+  </channel>
+</rss>
