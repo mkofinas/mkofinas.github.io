@@ -88,6 +88,22 @@ item:
   organization_url: https://www.edx.org
   title: "The Fundamentals of Neuroscience Part 3: The Brain"
   url: "https://learning.edx.org/course/course-v1:HarvardX+MCB80.3x+3T2015/home"
+- certificate_url: https://courses.edx.org/certificates/41f5d7c8253d418a956b428e44a7ffc6
+  date_end: ""
+  date_start: "2015-12-01"
+  description: ""
+  organization: edX
+  organization_url: https://www.edx.org
+  title: "Fundamentals of Neuroscience, Part 2: Neurons and Networks"
+  url: "https://learning.edx.org/course/course-v1:HarvardX+MCB80.2x+2T2022/home"
+- certificate_url: https://courses.edx.org/certificates/41f5d7c8253d418a956b428e44a7ffc6
+  date_end: ""
+  date_start: "2015-12-01"
+  description: ""
+  organization: edX
+  organization_url: https://www.edx.org
+  title: "Fundamentals of Neuroscience, Part 1: The Electrical Properties of the Neuron"
+  url: "https://learning.edx.org/course/HarvardX/MCB80.1x/2013_SOND/home"
 - certificate_url: https://www.coursera.org/learn/functional-mri
   date_end: ""
   date_start: "2015-12-01"
