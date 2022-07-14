@@ -5,12 +5,20 @@
     <link>https://mkofinas.github.io/post/</link>
       <atom:link href="https://mkofinas.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Jul 2022 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://mkofinas.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>TikZ Is All You Need</title>
+      <link>https://mkofinas.github.io/post/tikz/</link>
+      <pubDate>Wed, 13 Jul 2022 13:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/post/tikz/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Roto-translation Equivariance and Local Coordinate Frames</title>
