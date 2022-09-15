@@ -52,7 +52,7 @@ links:
 - name: OpenReview
   url: https://openreview.net/forum?id=dXouQ9ubkPJ
 
-url_pdf: 'eccv_2022_c3po_camera_ready.pdf'
+url_pdf: 'publication/c3po/eccv_2022_c3po_camera_ready.pdf'
 url_code: 'https://github.com/bpiyush/rotation-equivariant-lfm'
 url_dataset: ''
 url_poster: ''
