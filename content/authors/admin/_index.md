@@ -19,13 +19,14 @@ bio: Future spatio-temporal forecasting, graph neural networks, temporal dynamic
 
 # Interests to show in About widget
 interests:
+- Graph Neural Networks
+- Interacting Dynamical Systems
+- Geometric Deep Learning
+- Equivariance \& Symmetries
+- Future Forecasting
+- Temporal Dynamics
 - Deep Learning
 - Computer Vision
-- Future Spatio-temporal Forecasting
-- Temporal Dynamics
-- Graph Neural Networks
-- Geometric Deep Learning
-- Equivariant representations
 
 # Education to show in About widget
 education:
