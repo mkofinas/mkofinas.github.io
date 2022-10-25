@@ -51,13 +51,15 @@ featured: true
 links:
 - name: OpenReview
   url: https://openreview.net/forum?id=dXouQ9ubkPJ
+- name: Slides (PPTX)
+  url: publication/c3po/eccv_2022_c3po_presentation.pptx
 
 url_pdf: 'publication/c3po/eccv_2022_c3po_camera_ready.pdf'
 url_code: 'https://github.com/bpiyush/rotation-equivariant-lfm'
 url_dataset: ''
 url_poster: 'publication/c3po/eccv_2022_c3po_poster.pdf'
 url_project: ''
-url_slides: 'publication/c3po/eccv_2022_c3po_presentation.pptx'
+url_slides: ''
 url_source: ''
 url_video: ''
 
