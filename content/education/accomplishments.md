@@ -11,7 +11,7 @@ active: true
 weight: 71
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+title: Online Courses
 subtitle:
 
 # Date format
@@ -123,3 +123,4 @@ item:
 design:
   columns: '2'
 ---
+
