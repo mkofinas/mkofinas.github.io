@@ -27,9 +27,9 @@ item:
   date_start: "2022-05-09"
   description: ""
   organization: ASCI
-  organization_url: http://computervisionbylearning.info/
+  organization_url: https://asci.tudelft.nl/
   title: Computer Vision by Learning
-  url: ""
+  url: "http://computervisionbylearning.info/"
 design:
   columns: '2'
 ---

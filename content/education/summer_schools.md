@@ -26,11 +26,11 @@ item:
 - certificate_url: Kofinas_Miltiadis_MLSS_N_2022_Certificate.pdf
   date_end: "2022-07-02"
   date_start: "2022-06-27"
-  description: ""
+  description: "Summer school on Machine Learning, Computer Vision and Computational Neuroscience"
   organization: Jagiellonian University
-  organization_url: https://mlss.mlinpl.org/
-  title: MLSS<sup>^</sup>N
-  url: ""
+  organization_url: https://en.uj.edu.pl
+  title: MLSS<sup>N</sup> 2022
+  url: "https://mlss.mlinpl.org/"
 design:
   columns: '2'
 ---
