@@ -90,7 +90,7 @@ Prior to my PhD, I received a Diploma in Electrical and Computer Engineering
 from the Aristotle University of Thessaloniki. For my Diploma thesis,
 I researched the topic of Scene Graph Generation using Graph Neural Networks,
 supervised by [Anastasios Delopoulos](https://mug.ee.auth.gr/people/anastasios-delopoulos/)
-and [Christos Diou](https://mug.ee.auth.gr/people/christos-diou/).
+and [Christos Diou](https://diou.github.io/).
 During my studies, I was a computer vision & machine learning engineer at
 [P.A.N.D.O.R.A. Robotics](https://pandora.ee.auth.gr/pandora-robotics/).
 
