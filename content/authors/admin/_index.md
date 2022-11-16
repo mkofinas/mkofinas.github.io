@@ -46,6 +46,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MiltosKofinas
+- icon: mastodon
+  icon_pack: fab
+  link: https://sigmoid.social/@miltoskofinas
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/miltiadiskofinas
