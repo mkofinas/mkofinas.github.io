@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="Stay tuned!" />
+  <meta name="description" content="Visualizations of spherical harmonics, glyph plots, Wigner D-matrices" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://mkofinas.github.io/post/locs/" />
+  <link rel="alternate" hreflang="en-us" href="https://mkofinas.github.io/post/sph_harmonics/" />
 
   
   
@@ -276,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://mkofinas.github.io/post/locs/" />
+  <link rel="canonical" href="https://mkofinas.github.io/post/sph_harmonics/" />
 
   
   
@@ -298,18 +298,18 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Miltiadis Kofinas" />
-  <meta property="og:url" content="https://mkofinas.github.io/post/locs/" />
-  <meta property="og:title" content="Roto-translation Equivariance and Local Coordinate Frames | Miltiadis Kofinas" />
-  <meta property="og:description" content="Stay tuned!" /><meta property="og:image" content="https://mkofinas.github.io/post/locs/featured.gif" />
-    <meta property="twitter:image" content="https://mkofinas.github.io/post/locs/featured.gif" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://mkofinas.github.io/post/sph_harmonics/" />
+  <meta property="og:title" content="Visualizing Spherical Harmonics | Miltiadis Kofinas" />
+  <meta property="og:description" content="Visualizations of spherical harmonics, glyph plots, Wigner D-matrices" /><meta property="og:image" content="https://mkofinas.github.io/post/sph_harmonics/featured.png" />
+    <meta property="twitter:image" content="https://mkofinas.github.io/post/sph_harmonics/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-12-03T00:00:00&#43;00:00"
+        content="2022-11-17T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-12-03T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-11-17T00:00:00&#43;00:00">
   
 
   
@@ -333,16 +333,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://mkofinas.github.io/post/locs/"
+    "@id": "https://mkofinas.github.io/post/sph_harmonics/"
   },
-  "headline": "Roto-translation Equivariance and Local Coordinate Frames",
+  "headline": "Visualizing Spherical Harmonics",
   
   "image": [
-    "https://mkofinas.github.io/post/locs/featured.gif"
+    "https://mkofinas.github.io/post/sph_harmonics/featured.png"
   ],
   
-  "datePublished": "2021-12-03T00:00:00Z",
-  "dateModified": "2021-12-03T00:00:00Z",
+  "datePublished": "2022-11-17T00:00:00Z",
+  "dateModified": "2022-11-17T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -357,7 +357,7 @@
       "url": "https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Stay tuned!"
+  "description": "Visualizations of spherical harmonics, glyph plots, Wigner D-matrices"
 }
 </script>
 
@@ -373,11 +373,11 @@
 
 
 
-  <title>Roto-translation Equivariance and Local Coordinate Frames | Miltiadis Kofinas</title>
+  <title>Visualizing Spherical Harmonics | Miltiadis Kofinas</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c78c1cab5e590efc55d6462898569ab1" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9cd76538084773cd853cf858f0a95f42" >
 
   
   
@@ -794,10 +794,8 @@
 
 
 <div class="article-container pt-3">
-  <h1>Roto-translation Equivariance and Local Coordinate Frames</h1>
+  <h1>Visualizing Spherical Harmonics</h1>
 
-  
-  <p class="page-subtitle">Stay tuned!</p>
   
 
   
@@ -824,7 +822,7 @@
     
       
     
-    Dec 3, 2021
+    Nov 17, 2022
   </span>
   
 
@@ -833,7 +831,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    0 min read
   </span>
   
 
@@ -848,7 +846,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/equivariance/">Equivariance</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/equivariance/">Equivariance</a>, <a href="/category/visualizations/">Visualizations</a></span>
   
 
 </div>
@@ -862,10 +860,10 @@
 </div>
 
 
-<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 600px; max-height: 600px;">
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 700px; max-height: 500px;">
   <div style="position: relative">
-    <img src="/post/locs/featured.gif" width="600" height="600" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://drive.google.com/file/d/1jfpg5WAGrsYPBlGKIJ-o_Fi3gqhOTbKu/view?usp=sharing"><strong>Unsplash</strong></a></span>
+    <img src="/post/sph_harmonics/featured.png" width="700" height="500" alt="" class="featured-image">
+    
   </div>
 </div>
 
@@ -874,8 +872,48 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="overview">Overview</h2>
-<p>Stay tuned!</p>
+      <p><a href="https://github.com/mkofinas/spherical-harmonics/blob/main/src/spherical_harmonics.ipynb" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://img.shields.io/static/v1.svg?logo=jupyter&amp;label=Jupyter&amp;message=View%20On%20Github&amp;color=lightgreen" alt="Jupyter" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+<p><a href="https://colab.research.google.com/github/mkofinas/spherical-harmonics/blob/main/src/spherical_harmonics.ipynb" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
 
     </div>
 
@@ -905,7 +943,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://mkofinas.github.io/post/locs/&amp;text=Roto-translation%20Equivariance%20and%20Local%20Coordinate%20Frames" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://mkofinas.github.io/post/sph_harmonics/&amp;text=Visualizing%20Spherical%20Harmonics" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -918,7 +956,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://mkofinas.github.io/post/locs/&amp;t=Roto-translation%20Equivariance%20and%20Local%20Coordinate%20Frames" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://mkofinas.github.io/post/sph_harmonics/&amp;t=Visualizing%20Spherical%20Harmonics" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -931,7 +969,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Roto-translation%20Equivariance%20and%20Local%20Coordinate%20Frames&amp;body=https://mkofinas.github.io/post/locs/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Visualizing%20Spherical%20Harmonics&amp;body=https://mkofinas.github.io/post/sph_harmonics/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -944,7 +982,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://mkofinas.github.io/post/locs/&amp;title=Roto-translation%20Equivariance%20and%20Local%20Coordinate%20Frames" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://mkofinas.github.io/post/sph_harmonics/&amp;title=Visualizing%20Spherical%20Harmonics" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -957,7 +995,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Roto-translation%20Equivariance%20and%20Local%20Coordinate%20Frames%20https://mkofinas.github.io/post/locs/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Visualizing%20Spherical%20Harmonics%20https://mkofinas.github.io/post/sph_harmonics/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -970,7 +1008,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://mkofinas.github.io/post/locs/&amp;title=Roto-translation%20Equivariance%20and%20Local%20Coordinate%20Frames" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://mkofinas.github.io/post/sph_harmonics/&amp;title=Visualizing%20Spherical%20Harmonics" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1170,9 +1208,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/sph_harmonics/">Visualizing Spherical Harmonics</a></li>
-      
       <li><a href="/post/circ_harmonics/">Visualizing Circular Harmonics</a></li>
+      
+      <li><a href="/post/locs/">Roto-translation Equivariance and Local Coordinate Frames</a></li>
       
     </ul>
   </div>

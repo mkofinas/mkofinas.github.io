@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Miltiadis Kofinas</title>
-    <link>https://mkofinas.github.io/post/</link>
-      <atom:link href="https://mkofinas.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Visualizations | Miltiadis Kofinas</title>
+    <link>https://mkofinas.github.io/category/visualizations/</link>
+      <atom:link href="https://mkofinas.github.io/category/visualizations/index.xml" rel="self" type="application/rss+xml" />
+    <description>Visualizations</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
-      <link>https://mkofinas.github.io/post/</link>
+      <title>Visualizations</title>
+      <link>https://mkofinas.github.io/category/visualizations/</link>
     </image>
     
     <item>
@@ -109,24 +109,6 @@
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://colab.research.google.com/assets/colab-badge.svg&#34; alt=&#34;Colab&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TikZ Is All You Need</title>
-      <link>https://mkofinas.github.io/post/tikz/</link>
-      <pubDate>Wed, 13 Jul 2022 13:00:00 +0000</pubDate>
-      <guid>https://mkofinas.github.io/post/tikz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roto-translation Equivariance and Local Coordinate Frames</title>
-      <link>https://mkofinas.github.io/post/locs/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://mkofinas.github.io/post/locs/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Stay tuned!&lt;/p&gt;
 </description>
     </item>
     
