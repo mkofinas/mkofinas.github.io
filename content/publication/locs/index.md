@@ -34,7 +34,7 @@ publication_short: In NeurIPS 2021*
 abstract: Modelling interactions is critical in learning complex dynamical systems, namely systems of interacting objects with highly non-linear and time-dependent behaviour. A large class of such systems can be formalized as <em>geometric graphs</em>, <em>i.e.</em>, graphs with nodes positioned in the Euclidean space given an <em>arbitrarily</em> chosen global coordinate system, for instance vehicles in a traffic scene.  Notwithstanding the arbitrary global coordinate system, the governing dynamics of the respective dynamical systems are invariant to rotations and translations, also known as  <em>Galilean invariance</em>.  As ignoring these invariances leads to worse generalization, in this work we propose local coordinate frames per node-object to induce roto-translation invariance to the geometric graph of the interacting dynamical system.  Further, the local coordinate frames allow for a natural definition of anisotropic filtering in graph neural networks.  Experiments in traffic scenes, 3D motion capture, and colliding particles demonstrate that the proposed approach comfortably outperforms the recent state-of-the-art.
 
 # Summary. An optional shortened abstract.
-summary: Roto-translated local coordinate frames for all nodes-objects in the geometric graphs of interacting dynamical systems
+summary: Equivariance via canonicalized object-centric local frames in geometric graphs
 
 tags: []
 
@@ -81,6 +81,14 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+__Local frames construction demo:__
+[![Jupyter](https://img.shields.io/static/v1.svg?logo=jupyter&label=Jupyter&message=View%20On%20Github&color=lightgreen)](demo_local_frames_construction.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mkofinas/locs/blob/main/demo_local_frames_construction.ipynb)
+
+__LoCS GNN demo:__
+[![Jupyter](https://img.shields.io/static/v1.svg?logo=jupyter&label=Jupyter&message=View%20On%20Github&color=lightgreen)](demo.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mkofinas/locs/blob/main/demo.ipynb)
 
 <!-- {{% callout note %}} -->
 <!-- Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
