@@ -30,6 +30,13 @@ item:
   organization_url: https://asci.tudelft.nl/
   title: Computer Vision by Learning
   url: "http://computervisionbylearning.info/"
+- date_end: "2022-12-16"
+  date_start: "2022-12-12"
+  description: ""
+  organization: ASCI
+  organization_url: https://asci.tudelft.nl/
+  title: High Performance Computing
+  url: "https://asci.tudelft.nl/project/a24-a-programmers-guide-for-modern-high-performance-computing/"
 design:
   columns: '2'
 ---
