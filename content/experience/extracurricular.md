@@ -25,11 +25,11 @@ date_format: Jan, 2006
 item:
 - date_end: "2022-08-01"
   date_start: "2021-09-01"
-  description: 'Organizing and hosting the "Thinking Hour" reading group, with invited talks and tutorials'
+  description: 'Organizing and hosting "[Thinking Hour](https://thedeepthinkinghour.github.io)", a reading group with invited talks and tutorials'
   organization: University of Amsterdam
   organization_url:
   title: Thinking Hour
-  url: ""
+  url: "https://thedeepthinkinghour.github.io"
 design:
   columns: '2'
 ---
