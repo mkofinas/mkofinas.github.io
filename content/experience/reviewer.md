@@ -24,6 +24,13 @@ date_format: "2006"
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - date_end: ""
+  date_start: "2023-02-01"
+  description: ""
+  <!-- organization: CVPR -->
+  organization_url: https://cvpr2023.thecvf.com/
+  title: CVPR (The IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+  url: "https://cvpr2023.thecvf.com/"
+- date_end: ""
   date_start: "2023-01-01"
   description: ""
   <!-- organization: Iclr -->
