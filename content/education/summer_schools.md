@@ -23,6 +23,22 @@ date_format: Jan 2, 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- certificate_url: Miltiadis_Kofinas_ICVSS2023_examination_certificate.pdf
+  date_end: "2023-07-15"
+  date_start: "2023-07-09"
+  description: "International Computer Vision Summer School"
+  organization: University of Catania
+  organization_url: https://unict.it
+  title: ICVSS 2023
+  url: "https://iplab.dmi.unict.it/icvss2023/Home"
+- certificate_url:
+  date_end: "2023-06-26"
+  date_start: "2023-06-30"
+  description: "Generative Modeling Summer School"
+  organization: Technical University of Denmark
+  organization_url: https://www.dtu.dk/
+  title: GeMSS 2023
+  url: "https://gemss.ai/"
 - certificate_url: Kofinas_Miltiadis_MLSS_N_2022_Certificate.pdf
   date_end: "2022-07-02"
   date_start: "2022-06-27"
