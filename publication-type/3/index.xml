@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Miltiadis Kofinas</title>
+    <link>https://mkofinas.github.io/publication-type/3/</link>
+      <atom:link href="https://mkofinas.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://mkofinas.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Neural Modulation Fields for Conditional Cone Beam Neural Tomography</title>
+      <link>https://mkofinas.github.io/publication/cond-cbnt/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/publication/cond-cbnt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks Are Graphs! Graph Neural Networks for Equivariant Processing of Neural Networks</title>
+      <link>https://mkofinas.github.io/publication/nns-are-graphs/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/publication/nns-are-graphs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
