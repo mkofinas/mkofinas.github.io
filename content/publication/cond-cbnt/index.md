@@ -59,7 +59,7 @@ links:
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'condcbnt.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
