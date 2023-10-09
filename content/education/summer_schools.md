@@ -31,7 +31,7 @@ item:
   organization_url: https://unict.it
   title: ICVSS 2023
   url: "https://iplab.dmi.unict.it/icvss2023/Home"
-- certificate_url:
+- certificate_url: Miltiadis_Kofinas_GeMSS_2023_certificate.pdf
   date_end: "2023-06-26"
   date_start: "2023-06-30"
   description: "Generative Modeling Summer School"
