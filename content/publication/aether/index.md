@@ -43,7 +43,7 @@ tags: []
 # Display this page in the Featured widget?
 featured: true
 
-url_pdf: ''
+url_pdf: 'neurips_2023_aether.pdf'
 url_code: 'https://github.com/mkofinas/aether'
 url_dataset: ''
 url_poster: ''
