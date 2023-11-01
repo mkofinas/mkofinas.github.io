@@ -43,6 +43,11 @@ tags: []
 # Display this page in the Featured widget?
 featured: true
 
+# Custom links (uncomment lines below)
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2310.20679
+
 url_pdf: 'publication/aether/neurips_2023_aether.pdf'
 url_code: 'https://github.com/mkofinas/aether'
 url_dataset: ''
