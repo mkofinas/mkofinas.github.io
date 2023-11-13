@@ -47,6 +47,8 @@ featured: true
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2310.20679
+- name: OpenReview
+  url: https://openreview.net/forum?id=L9ZTvJ5jVx
 
 url_pdf: 'publication/aether/neurips_2023_aether.pdf'
 url_code: 'https://github.com/mkofinas/aether'
