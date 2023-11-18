@@ -5,12 +5,20 @@
     <link>https://mkofinas.github.io/</link>
       <atom:link href="https://mkofinas.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Miltiadis Kofinas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
       <title>Miltiadis Kofinas</title>
       <link>https://mkofinas.github.io/</link>
     </image>
+    
+    <item>
+      <title>Data Augmentations in Deep Weight Spaces</title>
+      <link>https://mkofinas.github.io/publication/weight_augmentations/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/publication/weight_augmentations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Latent Field Discovery in Interacting Dynamical Systems with Neural Fields</title>
