@@ -53,7 +53,7 @@ links:
 url_pdf: 'publication/aether/neurips_2023_aether.pdf'
 url_code: 'https://github.com/mkofinas/aether'
 url_dataset: ''
-url_poster: ''
+url_poster: 'publication/aether/aether_neurips_2023_poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
