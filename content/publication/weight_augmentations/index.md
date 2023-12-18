@@ -69,7 +69,7 @@ links:
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'DWS-AUG-Poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
