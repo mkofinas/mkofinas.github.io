@@ -5,12 +5,20 @@
     <link>https://mkofinas.github.io/publication/</link>
       <atom:link href="https://mkofinas.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://mkofinas.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>How to Train Neural Field Representations: A Comprehensive Study and Benchmark</title>
+      <link>https://mkofinas.github.io/publication/fit-a-nef/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/publication/fit-a-nef/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Augmentations in Deep Weight Spaces</title>
