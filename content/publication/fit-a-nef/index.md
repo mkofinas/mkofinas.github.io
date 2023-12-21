@@ -55,12 +55,16 @@ featured: true
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2312.10531
+- name: Neural Field Arena
+  url: https://github.com/samuelepapa/neural-field-arena
+- name: Zenodo
+  url: https://zenodo.org/records/10392793
 
 url_pdf: ''
 url_code: 'https://github.com/samuelepapa/fit-a-nef'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://fit-a-nef.github.io/'
 url_slides: ''
 url_source: ''
 url_video: ''
