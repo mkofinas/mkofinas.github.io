@@ -1,0 +1,43 @@
+\begin{tikzpicture}[
+    font=\small,
+    input/.style={draw, ultra thick, rounded corners, minimum width=8em,  minimum height=1em, fill=Orchid, opacity=0.8, font=\sffamily},
+    encoding/.style={draw, ultra thick, rounded corners, minimum width=8em, minimum height=1em, fill=white, font=\sffamily},
+    mlp/.style={draw, ultra thick, rounded corners, minimum width=8em, minimum height=1em, fill=CornflowerBlue, opacity=0.8, font=\sffamily},
+    film/.style={draw, ultra thick, rounded corners, minimum width=8em, minimum height=1em, fill=Salmon, opacity=0.8, font=\sffamily},
+    summary/.style={draw, ultra thick, trapezium, minimum width=7em, minimum height=1em, fill=YellowGreen, opacity=0.8, font=\sffamily},
+    to/.style={->, ultra thick, -stealth, opacity=0.8},
+  ]
+    % \node[minimum width=20em, minimum height=1em] (inputs) {Inputs};
+    \node[minimum width=7em, minimum height=1em] (input_trajectories) {Input trajectories};
+    \node[right=of input_trajectories, xshift=30pt, minimum width=7em, minimum height=1em] (query_states) {Query states};
+    \node[input, above=of query_states, yshift=-20pt] (pos) {$\mathbf{v}_i^t$};
+    \node[encoding, above=of pos, yshift=-10pt] (enc) {Encoding};
+    \node[mlp, above=of enc, yshift=-10pt] (hidden0) {MLP};    
+    \node[film, above=of hidden0, yshift=-10pt] (film1) {FiLM};
+    \node[mlp, above=of film1, yshift=-10pt] (hidden1) {MLP};
+    \node[film, above=of hidden1, yshift=-10pt] (film2) {FiLM};
+    \node[mlp, above=of film2, yshift=-10pt] (hidden2) {MLP};
+    \node[input, above=of hidden2, yshift=-10pt, label={[align=center, yshift=2pt]above:Predicted field}] (field) {$\mathbf{f}_i^t$};
+
+    \node[summary, align=center, anchor=south] at (input_trajectories|-enc.south) (summary) {Graph\\Aggregation};
+    
+    % \begin{scope}[on background layer]
+    %     \node[fit=(summary.bottom right corner) (pos) (field), draw, rounded corners, fill=orange!30, opacity=0.8, label={[align=center, anchor=north east, font=\normalsize\sffamily]north east:Latent\\Neural Field}] (neural_field) {};
+    % \end{scope}
+    \begin{scope}[on background layer]
+        \node[fit=(summary.bottom left corner) (enc) (hidden2), draw, rounded corners, fill=orange!30, opacity=0.8] (neural_field) {};
+    \end{scope}
+    
+    \draw[to] (input_trajectories) to (summary);
+    \draw[to] (pos) to (enc);
+    \draw[to] (enc) to (hidden0);
+    \draw[to] (hidden0) to (film1);
+    \draw[to] (film1) to (hidden1);
+    \draw[to] (hidden1) to (film2);
+    \draw[to] (film2) to (hidden2);
+    \draw[to] (hidden2) to (field);
+    \draw[to] (summary|-film1) |- (film1);
+    \draw[to] (summary) |- (film2);
+    \node[xshift=-0.05\textwidth] (z) at ($(summary|-film1)!0.5!(summary.north)$) {\(\mathbf{z}\)};
+    
+\end{tikzpicture}
