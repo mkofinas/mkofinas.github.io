@@ -29,7 +29,10 @@ experience:
     description: |2-
         Publications:
 
-        * Roto-translated Local Coordinate Frames For Interacting Dynamical Systems
+        * Roto-translated Local Coordinate Frames For Interacting Dynamical Systems (NeurIPS 2021)
+        * Latent Field Discovery in Interacting Dynamical Systems with Neural Fields (NeurIPS 2023)
+        * Graph Neural Networks for Learning Equivariant Representations of Neural Networks (ICLR 2024, Oral)
+
 
   - title: Diploma in Electrical and Computer Engineering
     company: Aristotle University of Thessaloniki

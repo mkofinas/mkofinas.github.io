@@ -37,6 +37,14 @@ item:
   organization_url: https://asci.tudelft.nl/
   title: High Performance Computing
   url: "https://asci.tudelft.nl/project/a24-a-programmers-guide-for-modern-high-performance-computing/"
+- certificate_url: Miltiadis_Kofinas_ICT2024_certificate_of_attendance.pdf
+  date_end: "2024-01-19"
+  date_start: "2024-01-15"
+  description: ""
+  organization: Lorentz Center
+  organization_url: https://www.lorentzcenter.nl/
+  title: ICT with Industry
+  url: "https://www.lorentzcenter.nl/ictwi2024"
 design:
   columns: '2'
 ---
