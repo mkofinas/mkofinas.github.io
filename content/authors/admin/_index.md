@@ -15,15 +15,15 @@ organizations:
   url: https://ivi.fnwi.uva.nl/vislab/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Future spatio-temporal forecasting, graph neural networks, temporal dynamics
+bio: Graph neural networks, Neural fields, Geometric deep learning
 
 # Interests to show in About widget
 interests:
 - Graph Neural Networks
-- Interacting Dynamical Systems
+- Neural Fields
 - Geometric Deep Learning
+- Interacting Dynamical Systems
 - Equivariance \& Symmetries
-- Future Forecasting
 - Temporal Dynamics
 - Deep Learning
 - Computer Vision
@@ -87,7 +87,7 @@ by [Efstratios Gavves](https://egavves.com/).
 My research focuses on future spatio-temporal forecasting, with applications on
 forecasting for autonomous vehicles.
 My research interests include graph neural networks,
-temporal dynamics, geometric deep learning and equivariant representations.
+neural fields, and geometric deep learning.
 
 Prior to my PhD, I received a Diploma in Electrical and Computer Engineering
 from the Aristotle University of Thessaloniki. For my Diploma thesis,
