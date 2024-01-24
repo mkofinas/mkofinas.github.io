@@ -24,6 +24,13 @@ date_format: "2006"
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - date_end: ""
+  date_start: "2023-08-01"
+  description: ""
+  <!-- organization: CVPR -->
+  organization_url: https://neurips.cc/Conferences/2023
+  title: NeurIPS (Neural Information Processing Systems)
+  url: "https://neurips.cc/Conferences/2023"
+- date_end: ""
   date_start: "2023-02-01"
   description: ""
   <!-- organization: CVPR -->
