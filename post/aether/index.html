@@ -73,6 +73,9 @@
 
   
   
+    
+    <script src="/js/mathjax-config.js"></script>
+  
 
   
 
@@ -220,9 +223,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -299,7 +302,7 @@
   
   <meta property="og:site_name" content="Miltiadis Kofinas" />
   <meta property="og:url" content="https://mkofinas.github.io/post/aether/" />
-  <meta property="og:title" content="Latent Field Discovery in Interacting Dynamical Systems with Neural Fields | Miltiadis Kofinas" />
+  <meta property="og:title" content="(WIP) Latent Field Discovery in Interacting Dynamical Systems with Neural Fields | Miltiadis Kofinas" />
   <meta property="og:description" content="Stay tuned!" /><meta property="og:image" content="https://mkofinas.github.io/post/aether/featured.png" />
     <meta property="twitter:image" content="https://mkofinas.github.io/post/aether/featured.png" /><meta property="og:locale" content="en-us" />
   
@@ -335,7 +338,7 @@
     "@type": "WebPage",
     "@id": "https://mkofinas.github.io/post/aether/"
   },
-  "headline": "Latent Field Discovery in Interacting Dynamical Systems with Neural Fields",
+  "headline": "(WIP) Latent Field Discovery in Interacting Dynamical Systems with Neural Fields",
   
   "image": [
     "https://mkofinas.github.io/post/aether/featured.png"
@@ -373,7 +376,7 @@
 
 
 
-  <title>Latent Field Discovery in Interacting Dynamical Systems with Neural Fields | Miltiadis Kofinas</title>
+  <title>(WIP) Latent Field Discovery in Interacting Dynamical Systems with Neural Fields | Miltiadis Kofinas</title>
 </head>
 
 
@@ -796,10 +799,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Latent Field Discovery in Interacting Dynamical Systems with Neural Fields</h1>
+  <h1>(WIP) Latent Field Discovery in Interacting Dynamical Systems with Neural Fields</h1>
 
   
-  <p class="page-subtitle">Stay tuned!</p>
+  <p class="page-subtitle">We discover global fields in interacting systems, inferring them from the dynamics alone, using neural fields.</p>
   
 
   
@@ -835,7 +838,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    3 min read
   </span>
   
 
@@ -850,7 +853,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/equivariance/">Equivariance</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/equivariance/">Equivariance</a>, <a href="/category/graph-neural-networks/">Graph neural networks</a>, <a href="/category/neural-fields/">Neural fields</a></span>
   
 
 </div>
@@ -878,9 +881,9 @@
     <div class="article-style">
       <h3 id="tldr-field-discovery-in-interacting-systems">TL;DR: Field discovery in interacting systems</h3>
 <p>We discover global fields in interacting systems, inferring them from the dynamics alone, using neural fields.</p>
-<p>We term our method \emph{Aether}, inspired by the postulated medium that permeates all throughout space and allows for propagation of light.</p>
-<h5 id="keywords">Keywords</h5>
-<p>Graph Neural Networks, Neural Fields, Field Discovery, Equivariance, Interacting Dynamical Systems, Geometric Graphs</p>
+<p><strong><em>Aether</em></strong>, the medium that permeates all throughout space and allows for propagation of light. 💨 🌊 🪨 🔥</p>
+<p><strong>Keywords</strong>:
+Graph Neural Networks, Neural Fields, Field Discovery, Equivariance, Interacting Dynamical Systems, Geometric Graphs</p>
 <h3 id="introduction----interacting-systems-are-everywhere">Introduction &ndash; Interacting systems are everywhere&hellip;</h3>
 <hr>
 <table>
@@ -1038,7 +1041,7 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./figures/related_work/egnn.pdf" alt="EGNN: \cite{satorras2021egnn}" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="./figures/related_work/egnn.png" alt="EGNN: \cite{satorras2021egnn}" loading="lazy" data-zoomable /></div>
   </div></figure>
 </th>
 <th style="text-align:center">
@@ -1080,7 +1083,7 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./figures/related_work/segnn.pdf" alt="SEGNN: \cite{brandstetter2021geometric}" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="./figures/related_work/segnn.png" alt="SEGNN: \cite{brandstetter2021geometric}" loading="lazy" data-zoomable /></div>
   </div></figure>
 </th>
 </tr>
@@ -1185,7 +1188,7 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./figures/neural_field/tikz_mlp.pdf" alt="MLP" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="./figures/neural_field/tikz_mlp.png" alt="MLP" loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 </li>
@@ -1214,6 +1217,118 @@
 </p>
 </li>
 </ul>
+<h3 id="background----equivariant-graph-network-backbone">Background &ndash; Equivariant graph network backbone</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./figures/tikz/simple_equivariant_locs.png" alt="Equivariant Graph Network Backbone" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<ul>
+<li>
+<p><strong>Node Features:</strong></p>
+<ul>
+<li>Positions: $ \mathbf{p}_i $</li>
+<li>Velocities: $ \mathbf{u}_i $</li>
+<li>Orientations: $ \mathbf{\omega}_i $ (for $R\mathbf{v}_i$)</li>
+</ul>
+</li>
+<li>
+<p><strong>Message Passing:</strong></p>
+<ul>
+<li>Local-to-Global Transformation: $ \mathbf{v}<em>{j|i} = \textsc{Global2Local}(\mathbf{v}</em>{j}, \mathbf{v}_{i}) $</li>
+<li>GNN Computation: $ \bm{\Delta}\mathbf{x}<em>{i|i} = \textrm{GNN}(\mathbf{v}</em>{i|i}, {\mathbf{v}<em>{j|i}}</em>{j \in \mathcal{N}(i)}) $</li>
+<li>Local-to-Global Transformation: $ \bm{\Delta}\mathbf{x}<em>i = \textsc{Local2Global}(\bm{\Delta}\mathbf{x}</em>{i|i}) $</li>
+</ul>
+</li>
+<li>
+<p><strong>Node Update:</strong>
+[ \mathbf{\hat{x}}<em>i = \mathbf{x}</em>{i} + \bm{\Delta}\mathbf{x}_i ]</p>
+</li>
+</ul>
+<h3 id="method----aether-architecture">Method &ndash; Aether Architecture</h3>
+<p>We model object interactions with equivariant graph networks [@kofinas2021roto], and field effects with neural fields. We hypothesize that field effects can be attributed to force fields, and therefore, our neural fields learn to discover latent force fields.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./figures/tikz/neural_field.png" alt="Latent Neural Field" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+<em>Figure 1: Latent Neural Field</em></p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./figures/tikz/pipeline.png" alt="Aether Pipeline" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+<em>Figure 2: Aether pipeline</em></p>
+<p>The pipeline of our method, <em>Aether</em>. In the latent neural field (Figure 1), a graph aggregation module summarizes the input trajectories in a latent variable $\mathbf{z}$. Query states from input trajectories, alongside $\mathbf{z}$, are fed to a neural field that predicts a latent force field. In the Aether pipeline (Figure 2), a graph network integrates predicted forces with input trajectories to predict future trajectories. The graph aggregation module and the FiLM layers exist only in a dynamic field setting.</p>
+<p><strong>Graph Aggregation and Integration Equations:</strong></p>
+<pre><code class="language-latex">\begin{columns}
+  \begin{column}{0.50\textwidth}
+    {\footnotesize
+      \begin{align*}
+        \mathbf{h}_{j,i}^{(1)} &amp;= f_{e}^{(1)}\left(\left[\mathbf{v}_{j|i}, \highlight{\mathbf{f}_{j|i}}, \mathbf{v}_{i|i}, \highlight{\mathbf{f}_{i|i}}\right]\right) \\
+        \mathbf{h}_i^{(1)} &amp;= f_v^{(1)}\left(g_v \left(\left[\mathbf{v}_{i|i}, \highlight{\mathbf{f}_{i|i}}\right]\right) + \frac{1}{|\mathcal{N}(i)|}\smashoperator[r]{\sum_{j \in \mathcal{N}(i)}} \mathbf{h}_{j,i}^{(1)}\right)
+      \end{align*}
+    }
+  &lt;/end{column}
+  \begin{column}{0.50\textwidth}
+    {\footnotesize
+      \begin{align*}
+        \mathbf{h}_{j,i}^{(l)} &amp;= f_e^{(l)}\left(\left[\mathbf{h}^{(l-1)}_i, \mathbf{h}^{(l-1)}_{j,i}, \mathbf{h}^{(l-1)}_j\right]\right) \\
+        \mathbf{h}_{i}^{(l)} &amp;= f_v^{(l)}\left(\mathbf{h}_{i}^{(l-1)} + \frac{1}{|\mathcal{N}(i)|}\smashoperator[r]{\sum_{j \in \mathcal{N}(i)}} \mathbf{h}_{j,i}^{(l)}\right) \\
+        \mathbf{\hat{x}}_i &amp;= \mathbf{x}_i + \mathbf{R}_i \cdot f_o\left(\mathbf{h}_i^L\right)
+      \end{align*}
+    }
+  \end{column}
+\end{columns}
+</code></pre>
 
     </div>
 
@@ -1243,7 +1358,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://mkofinas.github.io/post/aether/&amp;text=Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://mkofinas.github.io/post/aether/&amp;text=%28WIP%29%20Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1256,7 +1371,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://mkofinas.github.io/post/aether/&amp;t=Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://mkofinas.github.io/post/aether/&amp;t=%28WIP%29%20Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1269,7 +1384,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields&amp;body=https://mkofinas.github.io/post/aether/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=%28WIP%29%20Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields&amp;body=https://mkofinas.github.io/post/aether/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1282,7 +1397,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://mkofinas.github.io/post/aether/&amp;title=Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://mkofinas.github.io/post/aether/&amp;title=%28WIP%29%20Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1295,7 +1410,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields%20https://mkofinas.github.io/post/aether/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=%28WIP%29%20Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields%20https://mkofinas.github.io/post/aether/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1308,7 +1423,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://mkofinas.github.io/post/aether/&amp;title=Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://mkofinas.github.io/post/aether/&amp;title=%28WIP%29%20Latent%20Field%20Discovery%20in%20Interacting%20Dynamical%20Systems%20with%20Neural%20Fields" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1508,11 +1623,11 @@
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/post/locs/">Roto-translation Equivariance and Local Coordinate Frames</a></li>
+      
       <li><a href="/post/sph_harmonics/">Visualizing Spherical Harmonics</a></li>
       
       <li><a href="/post/circ_harmonics/">Visualizing Circular Harmonics</a></li>
-      
-      <li><a href="/post/locs/">Roto-translation Equivariance and Local Coordinate Frames</a></li>
       
     </ul>
   </div>

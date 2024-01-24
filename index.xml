@@ -29,15 +29,15 @@
     </item>
     
     <item>
-      <title>Latent Field Discovery in Interacting Dynamical Systems with Neural Fields</title>
+      <title>(WIP) Latent Field Discovery in Interacting Dynamical Systems with Neural Fields</title>
       <link>https://mkofinas.github.io/post/aether/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://mkofinas.github.io/post/aether/</guid>
       <description>&lt;h3 id=&#34;tldr-field-discovery-in-interacting-systems&#34;&gt;TL;DR: Field discovery in interacting systems&lt;/h3&gt;
 &lt;p&gt;We discover global fields in interacting systems, inferring them from the dynamics alone, using neural fields.&lt;/p&gt;
-&lt;p&gt;We term our method \emph{Aether}, inspired by the postulated medium that permeates all throughout space and allows for propagation of light.&lt;/p&gt;
-&lt;h5 id=&#34;keywords&#34;&gt;Keywords&lt;/h5&gt;
-&lt;p&gt;Graph Neural Networks, Neural Fields, Field Discovery, Equivariance, Interacting Dynamical Systems, Geometric Graphs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aether&lt;/em&gt;&lt;/strong&gt;, the medium that permeates all throughout space and allows for propagation of light. 💨 🌊 🪨 🔥&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;:
+Graph Neural Networks, Neural Fields, Field Discovery, Equivariance, Interacting Dynamical Systems, Geometric Graphs&lt;/p&gt;
 &lt;h3 id=&#34;introduction----interacting-systems-are-everywhere&#34;&gt;Introduction &amp;ndash; Interacting systems are everywhere&amp;hellip;&lt;/h3&gt;
 &lt;hr&gt;
 &lt;table&gt;
@@ -195,7 +195,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/related_work/egnn.pdf&#34; alt=&#34;EGNN: \cite{satorras2021egnn}&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/related_work/egnn.png&#34; alt=&#34;EGNN: \cite{satorras2021egnn}&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;
@@ -237,7 +237,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/related_work/segnn.pdf&#34; alt=&#34;SEGNN: \cite{brandstetter2021geometric}&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/related_work/segnn.png&#34; alt=&#34;SEGNN: \cite{brandstetter2021geometric}&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/th&gt;
 &lt;/tr&gt;
@@ -342,7 +342,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/neural_field/tikz_mlp.pdf&#34; alt=&#34;MLP&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/neural_field/tikz_mlp.png&#34; alt=&#34;MLP&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -371,7 +371,127 @@
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;background----equivariant-graph-network-backbone&#34;&gt;Background &amp;ndash; Equivariant graph network backbone&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/tikz/simple_equivariant_locs.png&#34; alt=&#34;Equivariant Graph Network Backbone&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Node Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Positions: $ \mathbf{p}_i $&lt;/li&gt;
+&lt;li&gt;Velocities: $ \mathbf{u}_i $&lt;/li&gt;
+&lt;li&gt;Orientations: $ \mathbf{\omega}_i $ (for $R\mathbf{v}_i$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Message Passing:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local-to-Global Transformation: $ \mathbf{v}&lt;em&gt;{j|i} = \textsc{Global2Local}(\mathbf{v}&lt;/em&gt;{j}, \mathbf{v}_{i}) $&lt;/li&gt;
+&lt;li&gt;GNN Computation: $ \bm{\Delta}\mathbf{x}&lt;em&gt;{i|i} = \textrm{GNN}(\mathbf{v}&lt;/em&gt;{i|i}, {\mathbf{v}&lt;em&gt;{j|i}}&lt;/em&gt;{j \in \mathcal{N}(i)}) $&lt;/li&gt;
+&lt;li&gt;Local-to-Global Transformation: $ \bm{\Delta}\mathbf{x}&lt;em&gt;i = \textsc{Local2Global}(\bm{\Delta}\mathbf{x}&lt;/em&gt;{i|i}) $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Node Update:&lt;/strong&gt;
+[ \mathbf{\hat{x}}&lt;em&gt;i = \mathbf{x}&lt;/em&gt;{i} + \bm{\Delta}\mathbf{x}_i ]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;method----aether-architecture&#34;&gt;Method &amp;ndash; Aether Architecture&lt;/h3&gt;
+&lt;p&gt;We model object interactions with equivariant graph networks [@kofinas2021roto], and field effects with neural fields. We hypothesize that field effects can be attributed to force fields, and therefore, our neural fields learn to discover latent force fields.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/tikz/neural_field.png&#34; alt=&#34;Latent Neural Field&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Figure 1: Latent Neural Field&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./figures/tikz/pipeline.png&#34; alt=&#34;Aether Pipeline&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Figure 2: Aether pipeline&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The pipeline of our method, &lt;em&gt;Aether&lt;/em&gt;. In the latent neural field (Figure 1), a graph aggregation module summarizes the input trajectories in a latent variable $\mathbf{z}$. Query states from input trajectories, alongside $\mathbf{z}$, are fed to a neural field that predicts a latent force field. In the Aether pipeline (Figure 2), a graph network integrates predicted forces with input trajectories to predict future trajectories. The graph aggregation module and the FiLM layers exist only in a dynamic field setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Graph Aggregation and Integration Equations:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;\begin{columns}
+  \begin{column}{0.50\textwidth}
+    {\footnotesize
+      \begin{align*}
+        \mathbf{h}_{j,i}^{(1)} &amp;amp;= f_{e}^{(1)}\left(\left[\mathbf{v}_{j|i}, \highlight{\mathbf{f}_{j|i}}, \mathbf{v}_{i|i}, \highlight{\mathbf{f}_{i|i}}\right]\right) \\
+        \mathbf{h}_i^{(1)} &amp;amp;= f_v^{(1)}\left(g_v \left(\left[\mathbf{v}_{i|i}, \highlight{\mathbf{f}_{i|i}}\right]\right) + \frac{1}{|\mathcal{N}(i)|}\smashoperator[r]{\sum_{j \in \mathcal{N}(i)}} \mathbf{h}_{j,i}^{(1)}\right)
+      \end{align*}
+    }
+  &amp;lt;/end{column}
+  \begin{column}{0.50\textwidth}
+    {\footnotesize
+      \begin{align*}
+        \mathbf{h}_{j,i}^{(l)} &amp;amp;= f_e^{(l)}\left(\left[\mathbf{h}^{(l-1)}_i, \mathbf{h}^{(l-1)}_{j,i}, \mathbf{h}^{(l-1)}_j\right]\right) \\
+        \mathbf{h}_{i}^{(l)} &amp;amp;= f_v^{(l)}\left(\mathbf{h}_{i}^{(l-1)} + \frac{1}{|\mathcal{N}(i)|}\smashoperator[r]{\sum_{j \in \mathcal{N}(i)}} \mathbf{h}_{j,i}^{(l)}\right) \\
+        \mathbf{\hat{x}}_i &amp;amp;= \mathbf{x}_i + \mathbf{R}_i \cdot f_o\left(\mathbf{h}_i^L\right)
+      \end{align*}
+    }
+  \end{column}
+\end{columns}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Learning on Graphs Conference Amsterdam Meetup</title>
+      <link>https://mkofinas.github.io/talk/learning-on-graphs-conference-amsterdam-meetup/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/talk/learning-on-graphs-conference-amsterdam-meetup/</guid>
+      <description></description>
     </item>
     
     <item>
