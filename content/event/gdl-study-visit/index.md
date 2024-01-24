@@ -13,7 +13,7 @@ event_url: https://www.meetup.com/The-Amsterdam-Applied-Machine-Learning-Meetup-
 #   country: United States
 
 summary: "Invited talk at *Geometric Deep Learning Study Visit*
-on \"'**Roto-translated Local Coordinate Frames For Interacting Dynamical Systems**\""
+on \"**Roto-translated Local Coordinate Frames For Interacting Dynamical Systems**\""
 abstract: Modelling interactions is critical in learning complex dynamical systems, namely systems of interacting objects with highly non-linear and time-dependent behaviour. A large class of such systems can be formalized as <em>geometric graphs</em>, <em>i.e.</em>, graphs with nodes positioned in the Euclidean space given an <em>arbitrarily</em> chosen global coordinate system, for instance vehicles in a traffic scene.  Notwithstanding the arbitrary global coordinate system, the governing dynamics of the respective dynamical systems are invariant to rotations and translations, also known as  <em>Galilean invariance</em>.  As ignoring these invariances leads to worse generalization, in this work we propose local coordinate frames per node-object to induce roto-translation invariance to the geometric graph of the interacting dynamical system.  Further, the local coordinate frames allow for a natural definition of anisotropic filtering in graph neural networks.  Experiments in traffic scenes, 3D motion capture, and colliding particles demonstrate that the proposed approach comfortably outperforms the recent state-of-the-art.
 
 # Talk start and end times.

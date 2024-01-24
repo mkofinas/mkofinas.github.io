@@ -36,6 +36,7 @@ tags:
 
 categories:
 - Equivariance
+- Graph neural networks
 ---
 
 ## Overview
