@@ -54,6 +54,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
+- name: arXiv
+  url: https://arxiv.org/abs/2403.12143
 - name: OpenReview
   url: https://openreview.net/forum?id=oO6FsMyDBt
 
