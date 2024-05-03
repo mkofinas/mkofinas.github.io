@@ -28,7 +28,7 @@ publishDate: "2021-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Advances in Neural Information Processing Systems 34 (NeurIPS 2021)
+publication: In Advances in Neural Information Processing Systems 34, NeurIPS 2021
 publication_short: In NeurIPS 2021*
 
 abstract: Modelling interactions is critical in learning complex dynamical systems, namely systems of interacting objects with highly non-linear and time-dependent behaviour. A large class of such systems can be formalized as <em>geometric graphs</em>, <em>i.e.</em>, graphs with nodes positioned in the Euclidean space given an <em>arbitrarily</em> chosen global coordinate system, for instance vehicles in a traffic scene.  Notwithstanding the arbitrary global coordinate system, the governing dynamics of the respective dynamical systems are invariant to rotations and translations, also known as  <em>Galilean invariance</em>.  As ignoring these invariances leads to worse generalization, in this work we propose local coordinate frames per node-object to induce roto-translation invariance to the geometric graph of the interacting dynamical system.  Further, the local coordinate frames allow for a natural definition of anisotropic filtering in graph neural networks.  Experiments in traffic scenes, 3D motion capture, and colliding particles demonstrate that the proposed approach comfortably outperforms the recent state-of-the-art.
@@ -50,12 +50,12 @@ links:
 - name: NeurIPS Video
   url: https://neurips.cc/virtual/2021/poster/28076
 
-url_pdf: ''
+url_pdf: 'publication/locs/locs_neurips_2021.pdf'
 url_code: 'https://github.com/mkofinas/locs'
 url_dataset: ''
-url_poster: 'neurips_2021_poster.pdf'
+url_poster: 'locs_neurips_2021_poster.pdf'
 url_project: ''
-url_slides: 'neurips_2021_presentation.pdf'
+url_slides: 'locs_neurips_2021_presentation.pdf'
 url_source: ''
 url_video: ''
 

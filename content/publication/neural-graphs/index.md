@@ -5,14 +5,14 @@ title: "Graph Neural Networks for Learning Equivariant Representations of Neural
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
+- adminstar
 - Boris Knyazev
 - Yan Zhang
 - Yunlu Chen
 - Gertjan J. Burghouts
 - Efstratios Gavves
 - Cees G. M. Snoek
-- David W. Zhang
+- David W. Zhang*
 
 # Author notes (optional)
 author_notes:
@@ -38,7 +38,7 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In 12th International Conference on Learning Representations (ICLR), 2024
+publication: In 12th International Conference on Learning Representations, ICLR 2024
 
 publication_short: In ICLR, 2024*
 
@@ -59,10 +59,10 @@ links:
 - name: OpenReview
   url: https://openreview.net/forum?id=oO6FsMyDBt
 
-url_pdf: ''
+url_pdf: 'publication/neural-graphs/neural_graphs_iclr_2024.pdf'
 url_code: 'https://github.com/mkofinas/neural-graphs'
 url_dataset: ''
-url_poster: ''
+url_poster: 'neural_graphs_iclr_2024_poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''

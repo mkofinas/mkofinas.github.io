@@ -42,13 +42,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:m.kofinas@uva.nl'
+  link: 'mailto:mkofinas@gmail.com'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MiltosKofinas
-- icon: mastodon
-  icon_pack: fab
-  link: https://sigmoid.social/@miltoskofinas
+# - icon: mastodon
+#   icon_pack: fab
+#   link: https://sigmoid.social/@miltoskofinas
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/miltiadiskofinas
@@ -81,7 +81,7 @@ highlight_name: true
 
 My name is Miltiadis (Miltos) Kofinas
 <sup>{{< staticref "https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20(%CE%9C%CE%AF%CE%BB%CF%84%CE%BF%CF%82)%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate" "newtab" >}}{{< icon name="volume-up" pack="fas" >}}{{< /staticref >}}</sup>
-and I am a PhD student in the [Video & Image Sense
+[he/him] and I am a PhD student in the [Video & Image Sense
 Lab](https://ivi.fnwi.uva.nl/vislab/) at the University of Amsterdam, supervised
 by [Efstratios Gavves](https://egavves.com/).
 My research focuses on future spatio-temporal forecasting, with applications on
