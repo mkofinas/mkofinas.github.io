@@ -64,7 +64,7 @@ url_code: 'https://github.com/mkofinas/neural-graphs'
 url_dataset: ''
 url_poster: 'neural_graphs_iclr_2024_poster.pdf'
 url_project: ''
-url_slides: ''
+url_slides: 'neural_graphs_iclr_2024_oral.pdf'
 url_source: ''
 url_video: ''
 
