@@ -75,3 +75,11 @@ image:
   focal_point: ""
   preview_only: false
 ---
+
+<!-- {{\<figure-dynamic                          -->
+<!--     light-src="neural_graphs_light_bg.png" -->
+<!--     dark-src="neural_graphs_dark_bg.png"   -->
+<!--     alt="Neural graphs image"              -->
+<!--     caption="Neural graphs"                -->
+<!--     attr=""                                -->
+<!-- \>}}                                        -->
