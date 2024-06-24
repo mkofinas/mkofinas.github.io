@@ -1,9 +1,9 @@
 ---
 title: Roto-translation Equivariance and Local Coordinate Frames
-subtitle: Stay tuned!
+subtitle: Simple equivariant graph networks with local coordinate frames
 
 # Summary for listings and search engines
-summary: Stay tuned!
+summary: Simple equivariant graph networks with local coordinate frames
 
 # Link this post with a project
 projects: []
@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://drive.google.com/file/d/1jfpg5WAGrsYPBlGKIJ-o_Fi3gqhOTbKu/view?usp=sharing)'
+  caption: 'Roto-translated local coordinate frames'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -41,4 +41,10 @@ categories:
 
 ## Overview
 
-Stay tuned!
+__Local frames construction demo:__
+[![Jupyter](https://img.shields.io/static/v1.svg?logo=jupyter&label=Jupyter&message=View%20On%20Github&color=lightgreen)](demo_local_frames_construction.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mkofinas/locs/blob/main/demo_local_frames_construction.ipynb)
+
+__LoCS GNN demo:__
+[![Jupyter](https://img.shields.io/static/v1.svg?logo=jupyter&label=Jupyter&message=View%20On%20Github&color=lightgreen)](demo.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mkofinas/locs/blob/main/demo.ipynb)
