@@ -590,7 +590,92 @@ Graph Neural Networks, Neural Fields, Field Discovery, Equivariance, Interacting
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://mkofinas.github.io/post/locs/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Stay tuned!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Local frames construction demo:&lt;/strong&gt;
+&lt;a href=&#34;demo_local_frames_construction.ipynb&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/static/v1.svg?logo=jupyter&amp;amp;label=Jupyter&amp;amp;message=View%20On%20Github&amp;amp;color=lightgreen&#34; alt=&#34;Jupyter&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://colab.research.google.com/github/mkofinas/locs/blob/main/demo_local_frames_construction.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://colab.research.google.com/assets/colab-badge.svg&#34; alt=&#34;Colab&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LoCS GNN demo:&lt;/strong&gt;
+&lt;a href=&#34;demo.ipynb&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/static/v1.svg?logo=jupyter&amp;amp;label=Jupyter&amp;amp;message=View%20On%20Github&amp;amp;color=lightgreen&#34; alt=&#34;Jupyter&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://colab.research.google.com/github/mkofinas/locs/blob/main/demo.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://colab.research.google.com/assets/colab-badge.svg&#34; alt=&#34;Colab&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
