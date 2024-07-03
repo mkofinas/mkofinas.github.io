@@ -24,9 +24,16 @@ date_format: "2006"
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - date_end: ""
+  date_start: "2023-10-01"
+  description: ""
+  <!-- organization: Log -->
+  organization_url: https://log2023.logconference.org/
+  title: LoG (Learning on Graphs)
+  url: "https://log2023.logconference.org/"
+- date_end: ""
   date_start: "2023-08-01"
   description: ""
-  <!-- organization: CVPR -->
+  <!-- organization: Neurips -->
   organization_url: https://neurips.cc/Conferences/2023
   title: NeurIPS (Neural Information Processing Systems)
   url: "https://neurips.cc/Conferences/2023"
@@ -41,16 +48,16 @@ item:
   date_start: "2023-01-01"
   description: ""
   <!-- organization: Iclr -->
-  organization_url: https://iclr.cc/
+  organization_url: https://iclr.cc/Conferences/2023
   title: ICLR (International Conference on Learning Representations)
-  url: "https://iclr.cc/"
+  url: "https://iclr.cc/Conferences/2023"
 - date_end: ""
   date_start: "2022-01-01"
   description: ""
   <!-- organization: Log -->
-  organization_url: https://logconference.org/
+  organization_url: http://log2022.logconference.org/
   title: LoG (Learning on Graphs)
-  url: "https://logconference.org/"
+  url: "http://log2022.logconference.org/"
 - date_end: ""
   date_start: "2022-01-01"
   description: ""
@@ -76,9 +83,9 @@ item:
   date_start: "2021-01-01"
   description: ""
   <!-- organization: Icml -->
-  organization_url: https://icml.cc/
+  organization_url: https://icml.cc/Conferences/2021
   title: ICML (International Conference on Machine Learning)
-  url: "https://icml.cc/"
+  url: "https://icml.cc/Conferences/2021"
 - date_end: ""
   date_start: "2020-01-01"
   description: ""
