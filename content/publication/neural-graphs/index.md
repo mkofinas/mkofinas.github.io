@@ -58,6 +58,8 @@ links:
   url: https://arxiv.org/abs/2403.12143
 - name: OpenReview
   url: https://openreview.net/forum?id=oO6FsMyDBt
+- name: Zenodo
+  url: https://zenodo.org/records/12797219
 
 url_pdf: 'publication/neural-graphs/neural_graphs_iclr_2024.pdf'
 url_code: 'https://github.com/mkofinas/neural-graphs'

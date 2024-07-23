@@ -49,6 +49,8 @@ links:
   url: https://arxiv.org/abs/2310.20679
 - name: OpenReview
   url: https://openreview.net/forum?id=L9ZTvJ5jVx
+- name: Zenodo
+  url: https://zenodo.org/records/10634923
 
 url_pdf: 'publication/aether/aether_neurips_2023.pdf'
 url_code: 'https://github.com/mkofinas/aether'
