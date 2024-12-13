@@ -5,12 +5,27 @@
     <link>https://mkofinas.github.io/</link>
       <atom:link href="https://mkofinas.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Miltiadis Kofinas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mkofinas.github.io/media/icon_hudb8a455293064c6ce128f53efee93cf4_169554_512x512_fill_lanczos_center_3.png</url>
       <title>Miltiadis Kofinas</title>
       <link>https://mkofinas.github.io/</link>
     </image>
+    
+    <item>
+      <title>From MLP to NeoMLP: Leveraging Self-Attention for Neural Fields</title>
+      <link>https://mkofinas.github.io/publication/neomlp/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://mkofinas.github.io/publication/neomlp/</guid>
+      <description>&lt;!-- {{\&lt;figure-dynamic                          --&gt;
+&lt;!--     light-src=&#34;neural_graphs_light_bg.png&#34; --&gt;
+&lt;!--     dark-src=&#34;neural_graphs_dark_bg.png&#34;   --&gt;
+&lt;!--     alt=&#34;Neural graphs image&#34;              --&gt;
+&lt;!--     caption=&#34;Neural graphs&#34;                --&gt;
+&lt;!--     attr=&#34;&#34;                                --&gt;
+&lt;!-- \&gt;}}                                        --&gt;
+</description>
+    </item>
     
     <item>
       <title>Amortized Equation Discovery in Hybrid Dynamical Systems</title>
