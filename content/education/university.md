@@ -32,6 +32,7 @@ experience:
         * Roto-translated Local Coordinate Frames For Interacting Dynamical Systems (NeurIPS 2021)
         * Latent Field Discovery in Interacting Dynamical Systems with Neural Fields (NeurIPS 2023)
         * Graph Neural Networks for Learning Equivariant Representations of Neural Networks (ICLR 2024, Oral)
+        * From MLP to NeoMLP: Leveraging Self-Attention for Neural Fields (Preprint, 2024)
 
 
   - title: Diploma in Electrical and Computer Engineering

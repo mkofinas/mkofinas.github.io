@@ -7,12 +7,12 @@ title: Miltiadis Kofinas
 superuser: true
 
 # Role/position/tagline
-role: PhD student in Computer Science
+role: Postdoctoral researcher, AI for Climate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: VIS Lab, University of Amsterdam
-  url: https://ivi.fnwi.uva.nl/vislab/
+- name: Climate Extremes Group, Vrije Universiteit Amsterdam
+  url: https://climateextremes.eu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Graph neural networks, Neural fields, Geometric deep learning
@@ -46,6 +46,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MiltosKofinas
+- icon: twitter
+  icon_pack: fab
+  link: https://bsky.app/profile/miltoskofinas.bsky.social
 # - icon: mastodon
 #   icon_pack: fab
 #   link: https://sigmoid.social/@miltoskofinas
