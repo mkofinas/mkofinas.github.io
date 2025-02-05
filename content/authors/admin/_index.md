@@ -22,6 +22,8 @@ interests:
 - Graph Neural Networks
 - Neural Fields
 - Geometric Deep Learning
+- Parameter-space Networks
+- AI for Climate
 - Interacting Dynamical Systems
 - Equivariance \& Symmetries
 - Temporal Dynamics
@@ -31,6 +33,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: PhD in Computer Science (Artificial Intelligence)
+    institution: University of Amsterdam
+    year: expected 2025
   - course: Diploma (M.Sc. equivalent) in Electrical and Computer Engineering
     institution: Aristotle University of Thessaloniki
     year: 2018
@@ -43,9 +48,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:mkofinas@gmail.com'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/MiltosKofinas
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/MiltosKofinas
 - icon: twitter
   icon_pack: fab
   link: https://bsky.app/profile/miltoskofinas.bsky.social
@@ -84,14 +89,17 @@ highlight_name: true
 
 My name is Miltiadis (Miltos) Kofinas
 <sup>{{< staticref "https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20(%CE%9C%CE%AF%CE%BB%CF%84%CE%BF%CF%82)%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate" "newtab" >}}{{< icon name="volume-up" pack="fas" >}}{{< /staticref >}}</sup>
-[he/him] and I am a PhD student in the [Video & Image Sense
+[he/him] and I am a Postdoctoral researcher in the [Climate Extremes Group](https://climateextremes.eu/) at the Vrije Universiteit Amsterdam, supervised by Dim Coumou.
+My research focuses on the development of AI methods for climate science, and
+especially on foundation models for weather forecasting.
+My research interests include graph neural networks,
+neural fields, geometric deep learning, and parameter-space networks.
+
+I completed my PhD in the [Video & Image Sense
 Lab](https://ivi.fnwi.uva.nl/vislab/) at the University of Amsterdam, supervised
 by [Efstratios Gavves](https://egavves.com/).
-My research focuses on future spatio-temporal forecasting, with applications on
+My research focused on future spatio-temporal forecasting, with applications on
 forecasting for autonomous vehicles.
-My research interests include graph neural networks,
-neural fields, and geometric deep learning.
-
 Prior to my PhD, I received a Diploma in Electrical and Computer Engineering
 from the Aristotle University of Thessaloniki. For my Diploma thesis,
 I researched the topic of Scene Graph Generation using Graph Neural Networks,
