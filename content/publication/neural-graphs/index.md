@@ -35,7 +35,7 @@ publishDate: "2024-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: In 12th International Conference on Learning Representations, ICLR 2024
@@ -47,7 +47,13 @@ abstract: Neural networks that process the parameters of other neural networks f
 # Summary. An optional shortened abstract.
 summary: Graph Neural Networks for Learning Equivariant Representations of Neural Networks
 
-tags: []
+tags:
+  - Parameter-space networks
+  - Graph Neural Networks
+  - Transformers
+  - Equivariance
+  - Neural Fields
+  - Implicit Neural Representations
 
 # Display this page in the Featured widget?
 featured: true

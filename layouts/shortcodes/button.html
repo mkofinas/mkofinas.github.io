@@ -1,0 +1,62 @@
+{{/*
+  Two-Button Shortcode (matches your current button style)
+  Parameters:
+    - url1, text1, icon1
+    - url2, text2, icon2
+    - align: left, center, right
+    - new_tab: true/false
+*/}}
+
+{{- $align := .Get "align" | default "left" -}}
+{{- $alignClass := "text-left" -}}
+{{- if eq $align "center" -}}
+  {{- $alignClass = "text-center" -}}
+{{- else if eq $align "right" -}}
+  {{- $alignClass = "text-right" -}}
+{{- end -}}
+
+{{- $newTab := .Get "new_tab" | default false -}}
+
+<div class="{{ $alignClass }} space-x-3 mt-3">
+
+  {{- /* First button */ -}}
+  {{- $url1 := .Get "url1" -}}
+  {{- $text1 := .Get "text1" -}}
+  {{- $icon1 := .Get "icon1" | default "arrow-down-tray" -}}
+  {{- if $url1 }}
+    <a href="{{ $url1 }}" target="{{ if $newTab }}_blank{{ else }}_self{{ end }}" rel="noopener"
+       class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg
+              hover:bg-gray-100 hover:text-primary-700
+              focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700
+              dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700
+              no-underline">
+      {{- if $icon1 }}
+        <span class="flex-shrink-0">
+          {{ partial "functions/get_icon" (dict "name" $icon1 "attributes" "class=\"w-3.5 h-3.5 me-2.5\"") }}
+        </span>
+      {{- end }}
+      <span>{{ $text1 }}</span>
+    </a>
+  {{- end }}
+
+  {{- /* Second button */ -}}
+  {{- $url2 := .Get "url2" -}}
+  {{- $text2 := .Get "text2" -}}
+  {{- $icon2 := .Get "icon2" | default "arrow-down-tray" -}}
+  {{- if $url2 }}
+    <a href="{{ $url2 }}" target="{{ if $newTab }}_blank{{ else }}_self{{ end }}" rel="noopener"
+       class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg
+              hover:bg-gray-100 hover:text-primary-700
+              focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700
+              dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700
+              no-underline">
+      {{- if $icon2 }}
+        <span class="flex-shrink-0">
+          {{ partial "functions/get_icon" (dict "name" $icon2 "attributes" "class=\"w-3.5 h-3.5 me-2.5\"") }}
+        </span>
+      {{- end }}
+      <span>{{ $text2 }}</span>
+    </a>
+  {{- end }}
+
+</div>

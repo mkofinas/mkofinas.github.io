@@ -1,0 +1,103 @@
+{{/* Hugo Blox: Online Courses */}}
+{{/* Custom block based on Awards template */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+
+{{ $person_page_path := (printf "/authors/%s" $author) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`." $person_page_path }}
+{{end}}
+
+{{ $items := $person_page.Params.online_courses }}
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  {{ with $block.content.title }}
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ . | markdownify | emojify }}
+  </div>
+  {{ end }}
+
+  {{ with $block.content.text }}
+    <p>{{ . | markdownify | emojify }}</p>
+  {{ end }}
+
+  <div class="w-full flex flex-col gap-6">
+
+  {{ if $items }}
+    {{ range $idx, $item := sort $items ".date_start" "desc" }}
+
+    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+      {{ with $item.icon }}
+      <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+        {{ partial "functions/get_icon" (dict "name" . "attributes" "style=\"height:100%;\"") }}
+      </div>
+      {{ end }}
+
+<div class="flex items-center gap-3 mb-2">
+  {{/* --- Logo before title --- */}}
+  {{ with $item.organization_logo }}
+  <div class="flex-shrink-0 text-gray-500 dark:text-gray-400">
+    {{ partial "functions/get_icon" (dict "name" . "pack" "brands" "attributes" "class='h-6 w-6 mt-[2px]'") }}
+  </div>
+  {{ end }}
+  {{/* --- Title, wrapped by link if available --- */}}
+  <div>
+    {{ with $item.url }}
+    <a href="{{.}}" target="_blank" rel="noopener">
+      {{ end }}
+      <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+        {{ $item.title | markdownify | emojify }} </h5> {{ with $item.url }}
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+      <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+
+      {{ if .organization_url }}
+        <a href="{{ .organization_url }}" target="_blank" rel="noopener"
+          class="hover:underline">
+          {{ .organization }}
+        </a>
+      {{ else }}
+        {{ .organization }}
+      {{ end }}
+        {{ if $item.date_end }}
+          &#8729;
+          {{ (time $item.date_end) | time.Format ($block.design.date_format | default "January 2006") }}
+        {{ else }}
+          {{ i18n "present" | default "Present" }}
+        {{ end }}
+      </div>
+
+      {{ with $item.summary }}
+      <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose">
+        {{ . | markdownify | emojify }}
+      </div>
+      {{ end }}
+
+      {{ with $item.certificate_url }}
+      <a href="{{.}}" target="_blank" rel="noopener" class="inline-flex items-center text-primary-600 dark:text-primary-300 hover:underline">
+        {{ i18n "see_certificate" | default "See certificate" }}
+        <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+        </svg>
+      </a>
+      {{ end }}
+
+    </div>
+
+    {{ end }}
+  {{ else }}
+    <p class="text-gray-500 dark:text-gray-400">No online courses found.</p>
+  {{ end }}
+
+  </div>
+</div>
+

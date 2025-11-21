@@ -1,0 +1,83 @@
+{{/* Hugo Blox: Teaching Experience Timeline */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $author := $block.content.username | default "admin" }}
+{{ $person_page_path := printf "/authors/%s" $author }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`." $person_page_path }}
+{{end}}
+
+{{ $teachings := $person_page.Params.teaching }}
+
+<div class="flex flex-col items-center mx-auto w-full max-w-prose gap-3 justify-center">
+
+  {{ with $block.content.title }}
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">
+      {{ . | markdownify | emojify }}
+    </div>
+  {{ end }}
+
+  {{ with $block.content.text }}
+    <p class="mb-4 text-gray-700 dark:text-gray-300">{{ . | markdownify | emojify }}</p>
+  {{ end }}
+
+  {{ if $teachings }}
+    <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
+      {{ range $idx, $item := sort $teachings ".date_start" "desc" }}
+        <li class="mb-10 ms-6">
+          <!-- Timeline Marker -->
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            {{ if $item.icon }}
+              {{ partial "functions/get_icon" (dict "name" $item.icon "attributes" "class='w-5 h-5 text-primary-800 dark:text-primary-300'") }}
+            {{ else }}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+            {{ end }}
+          </span>
+
+          <!-- Entry Content -->
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ $item.position }}</h3>
+
+          <div class="block mb-1 text-sm text-gray-500 dark:text-gray-300">
+            {{ if $item.organization_url }}
+              <a href="{{ $item.organization_url }}" target="_blank" rel="noopener" class="hover:underline">
+                {{ $item.company_name }}
+              </a>
+            {{ else }}
+              {{ $item.company_name }}
+            {{ end }}
+          </div>
+
+          {{ if or $item.date_start $item.date_end }}
+            <time class="block mb-2 text-sm text-gray-500 dark:text-gray-300">
+              {{ if $item.date_start }}
+                {{ (time $item.date_start) | time.Format ($block.design.date_format | default "January 2006") }} –
+              {{ end }}
+              {{ if $item.date_end }}
+                {{ (time $item.date_end) | time.Format ($block.design.date_format | default "January 2006") }}
+              {{ else }}
+                {{ i18n "present" | default "Present" }}
+              {{ end }}
+            </time>
+          {{ end }}
+
+          {{ with $item.summary }}
+            <div class="text-gray-500 dark:text-gray-300 prose max-w-none prose-slate dark:prose-invert">
+              {{ . | markdownify | emojify }}
+            </div>
+          {{ end }}
+
+          {{ with $item.button }}
+            <a href="{{ .url }}" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 mt-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+              {{ .text }}
+            </a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ else }}
+    <p class="text-gray-500 dark:text-gray-400">No teaching experience found.</p>
+  {{ end }}
+
+</div>
