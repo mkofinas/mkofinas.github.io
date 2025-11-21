@@ -4,7 +4,7 @@ title: Miltiadis Kofinas
 
 # Name pronunciation (optional)
 # name_pronunciation: Miltiadis Kofinas
-name_pronunciation: Μιλτιάδης Κοφινάς
+# name_pronunciation: Μιλτιάδης Κοφινάς
 
 # Full name (for SEO)
 first_name: Miltiadis
