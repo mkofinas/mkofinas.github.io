@@ -3,17 +3,19 @@
 title: Miltiadis Kofinas
 
 # Name pronunciation (optional)
-name_pronunciation: Miltiadis Kofinas
-# name_pronunciation: Μιλτιάδης Κοφινάς
+# name_pronunciation: Miltiadis Kofinas
+name_pronunciation: Μιλτιάδης Κοφινάς
 
 # Full name (for SEO)
 first_name: Miltiadis
 last_name: Kofinas
 
+# Pronouns (optional)
+pronouns: he/him
+
 # Status emoji
 status:
   icon: 💭
-
 
 # Is this the primary user of the site?
 superuser: true
@@ -169,35 +171,34 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Python & PyTorch
         description: ''
-        percent: 80
+        percent: 95
         icon: code-bracket
-      - name: Data Science
+      - name: Machine Learning
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Cloud Computing (AWS/GCP)
         description: ''
-        percent: 40
-        icon: circle-stack
+        percent: 85
+        icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: Hiking in the Rockies
         description: ''
         percent: 80
-        icon: camera
-
+        icon: person-simple-walk
+      - name: Building Custom PCs
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: Sci-Fi Reading
+        description: ''
+        percent: 70
+        icon: book-open
 
 languages_new:
   - title: English, Certificate of Proficiency in English
@@ -214,26 +215,7 @@ languages_new:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-    category: inperson
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# awards:
 
 # --- New Section: Extracurricular Activities ---
 extracurricular:
@@ -527,13 +509,14 @@ supervision:
     date_end: "2023-07-01"
 
 # <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+
 ---
 
 ## About Me
 
 My name is Miltiadis (Miltos) Kofinas
 [{{< icon name="hero/speaker-wave" >}}](https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20(%CE%9C%CE%AF%CE%BB%CF%84%CE%BF%CF%82)%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate)
-[he/him] and I am a Postdoctoral researcher in the [Climate Extremes
+and I am a Postdoctoral researcher in the [Climate Extremes
 Group](https://climateextremes.eu/) at the Vrije Universiteit Amsterdam, advised by
 Dim Coumou.
 My research focuses on the development of AI methods for climate science, and
