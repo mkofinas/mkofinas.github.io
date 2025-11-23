@@ -512,8 +512,6 @@ supervision:
 
 ---
 
-## About Me
-
 My name is Miltiadis (Miltos) Kofinas
 [{{< icon name="hero/speaker-wave" >}}](https://translate.google.com/?sl=el&tl=en&text=%CE%9C%CE%B9%CE%BB%CF%84%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20(%CE%9C%CE%AF%CE%BB%CF%84%CE%BF%CF%82)%20%CE%9A%CE%BF%CF%86%CE%B9%CE%BD%CE%AC%CF%82&op=translate)
 and I am a Postdoctoral researcher in the [Climate Extremes
