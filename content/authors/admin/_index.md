@@ -69,7 +69,7 @@ education:
   - area: Postdoc in Artificial Intelligence for Climate
     institution: Vrije Universiteit Amsterdam
     institution_url: ''
-    <!-- institution_logo: university_of_amsterdam -->
+    institution_logo: vu.svg
     location: Amsterdam, The Netherlands
     date_start: 2025-02-01
     date_end:
@@ -79,7 +79,7 @@ education:
   - area: PhD in Computer Science (Artificial Intelligence), expected 2025
     institution: University of Amsterdam
     institution_url: ''
-    institution_logo: university_of_amsterdam
+    institution_logo: university_of_amsterdam.svg
     location: Amsterdam, The Netherlands
     date_start: 2020-04-01
     date_end: 2024-06-30
@@ -94,7 +94,7 @@ education:
   - area: Diploma (M.Sc. equivalent) in Electrical and Computer Engineering
     institution: Aristotle University of Thessaloniki
     institution_url: ''
-    institution_logo: auth
+    institution_logo: auth.svg
     location: Thessaloniki, Greece
     date_start: 2010-10-01
     date_end: 2018-11-01
@@ -121,7 +121,7 @@ work:
   - position: Postdoc in Artificial Intelligence for Climate
     company_name: Vrije Universiteit Amsterdam
     company_url: ''
-    <!-- company_logo: vrije_universiteit_amsterdam -->
+    company_logo: vu.svg
     location: Amsterdam, The Netherlands
     date_start: 2025-02-01
     date_end:
@@ -131,7 +131,7 @@ work:
   - position: PhD in Computer Science (Artificial Intelligence), expected 2025
     company_name: University of Amsterdam
     company_url: ''
-    company_logo: university_of_amsterdam
+    company_logo: university_of_amsterdam.svg
     location: Amsterdam, The Netherlands
     date_start: 2020-04-01
     date_end: 2024-06-30
@@ -146,7 +146,7 @@ work:
   - position: Research Assistant
     company_name:  University of Amsterdam
     company_url: ''
-    company_logo: university_of_amsterdam
+    company_logo: university_of_amsterdam.svg
     location: Amsterdam, The Netherlands
     date_start: '2019-03-01'
     date_end: '2019-05-01'
@@ -158,7 +158,7 @@ work:
   - position: Computer Vision & Machine Learning Engineer
     company_name:  P.A.N.D.O.R.A. Robotics
     company_url: ''
-    company_logo: auth
+    company_logo: pandora.jpeg
     location: Thessaloniki, Greece
     date_start: '2014-10-01'
     date_end: '2015-10-01'

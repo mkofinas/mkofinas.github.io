@@ -41,7 +41,15 @@
         <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{.area}}
 <!--          <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">Latest</span>-->
         </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{.institution}}</span>
+<div class="flex items-center mb-2 text-sm font-normal text-gray-500 dark:text-gray-300">
+  {{ with .institution_logo }}
+    {{ $logo := resources.Get (printf "media/icons/brands/%s" .) }}
+    {{ if $logo }}
+      <img src="{{ $logo.RelPermalink }}" alt="{{ $.institution }}" class="w-6 h-6 me-2 object-contain">
+    {{ end }}
+  {{ end }}
+  <span>{{ .institution }}</span>
+</div>
         <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
           {{ if .date_start }}
             {{ (time .date_start) | time.Format ($block.design.date_format | default "January 2006") }} –
