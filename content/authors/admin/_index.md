@@ -50,7 +50,7 @@ profiles:
 #   link: https://www.semanticscholar.org/author/2135380233
 - icon: brands/github
   link: https://github.com/mkofinas
-- icon: custom/gitlab_white
+- icon: custom/gitlab_gray
   link: https://gitlab.com/mkofinas
 
 interests:
@@ -486,62 +486,78 @@ teaching:
     date_end: "2023-06-01"
 
 supervision:
-  - position: "Daniël (Stijn) Hamerslag, Driving on Data: Object Detection in Urban Driving Scenes"
+  - position: "Driving on Data: Object Detection in Urban Driving Scenes"
+    name: Daniël (Stijn) Hamerslag
     company_name: University of Amsterdam, BSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2020-10-01"
     date_end: "2021-01-01"
-  - position: Daniel Perez Jensen, Heterogeneous Graph Neural Networks for River Flow Prediction in the Rio Copiapó Watershed
+  - position: Heterogeneous Graph Neural Networks for River Flow Prediction in the Rio Copiapó Watershed
+    name: Daniel Perez Jensen
     company_name: University of Amsterdam, MSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2021-11-01"
     date_end: "2022-07-01"
-  - position: Victor Kyriakou, Equivariant Trajectory Forecasting with Latent Orientation Graph Networks
+  - position: Equivariant Trajectory Forecasting with Latent Orientation Graph Networks
+    name: Victor Kyriakou
     company_name: University of Amsterdam, MSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2022-11-01"
     date_end: "2023-07-01"
-  - position: Constantinos Dimitriou, Regional Medium-Range Forecasting
+  - position: Regional Medium-Range Forecasting
+    name: Constantinos Dimitriou
     company_name: Vrije Universiteit Amsterdam, BSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2025-04-01"
     date_end: "2025-07-01"
-  - position: "Kevyn M. Smit, Evaluating Fine-Tuning Methods for Aurora’s S2S Forecasting: A Comparison of LoRA and FourierFT"
+  - position: "Evaluating Fine-Tuning Methods for Aurora’s S2S Forecasting: A Comparison of LoRA and FourierFT"
+    name: Kevyn M. Smit
     company_name: Vrije Universiteit Amsterdam, BSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2025-04-01"
     date_end: "2025-07-01"
-  - position: Danilo Rijpstra, Latent space analysis on heatwave clustering/detection
+  - position: Latent space analysis on heatwave clustering/detection
+    name: Danilo Rijpstra
     company_name: Vrije Universiteit Amsterdam, BSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2025-04-01"
     date_end: "2025-07-01"
-  - position: Mikołaj Magiera, Interpretation and Visualization of Medium-Range Weather Forecasts Through Attention Heatmaps
+  - position: Interpretation and Visualization of Medium-Range Weather Forecasts Through Attention Heatmaps
+    name: Mikołaj Magiera
     company_name: Vrije Universiteit Amsterdam, BSc CS
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2025-04-01"
     date_end: "2025-07-01"
-  - position: Mark Mitrani, Predicting Weather-driven Crop Failures with Space-time Transformers
+  - position: Predicting Weather-driven Crop Failures with Space-time Transformers
+    name: Mark Mitrani
     company_name: Vrije Universiteit Amsterdam, MSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2025-03-01"
     date_end: "2025-11-01"
+  - position: Deep learning for extended-range weather forecasting
+    name: Eliot Walt
+    company_name: Vrije Universiteit Amsterdam, PhD Environmental Studies
+    company_url: ''
+    <!-- company_logo: vrije_universiteit_amsterdam -->
+    location: Amsterdam, The Netherlands
+    date_start: "2025-03-01"
+    date_end: ""
 
 # <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
 

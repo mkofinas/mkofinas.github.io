@@ -36,9 +36,22 @@
             {{ end }}
           </span>
 
-          <!-- Entry Content -->
-          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ $item.position }}</h3>
+          <!-- Name and Position -->
+          <div class="mb-1">
+            {{ if $item.name }}
+              <div class="text-lg font-semibold text-gray-900 dark:text-white">
+                {{ $item.name }}
+              </div>
+            {{ end }}
 
+            {{ if $item.position }}
+              <div class="text-base font-medium text-gray-700 dark:text-gray-300">
+                {{ $item.position }}
+              </div>
+            {{ end }}
+          </div>
+
+          <!-- Company / Organization -->
           <div class="block mb-1 text-sm text-gray-500 dark:text-gray-300">
             {{ if $item.organization_url }}
               <a href="{{ $item.organization_url }}" target="_blank" rel="noopener" class="hover:underline">
