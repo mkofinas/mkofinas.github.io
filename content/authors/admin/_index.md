@@ -514,7 +514,7 @@ supervision:
     location: Amsterdam, The Netherlands
     date_start: "2025-04-01"
     date_end: "2025-07-01"
-  - position: Kevyn M. Smit, Evaluating Fine-Tuning Methods for Aurora’s S2S Forecasting: A Comparison of LoRA and FourierFT
+  - position: "Kevyn M. Smit, Evaluating Fine-Tuning Methods for Aurora’s S2S Forecasting: A Comparison of LoRA and FourierFT"
     company_name: Vrije Universiteit Amsterdam, BSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
