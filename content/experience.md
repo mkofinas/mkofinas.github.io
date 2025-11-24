@@ -31,9 +31,13 @@ sections:
     content:
         title: Teaching Experience
         username: admin
+  - block: resume-phd_supervision
+    content:
+        title: PhD Supervision
+        username: admin
   - block: resume-supervision
     content:
-        title: Supervision
+        title: Thesis Supervision
         username: admin
   - block: resume-extracurricular
     content:

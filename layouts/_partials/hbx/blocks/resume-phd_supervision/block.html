@@ -1,4 +1,4 @@
-{{/* Hugo Blox: Thesis Supervision */}}
+{{/* Hugo Blox: PhD Supervision */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 
@@ -9,7 +9,7 @@
   {{ errorf "Could not find an author page at `%s`." $person_page_path }}
 {{end}}
 
-{{ $teachings := $person_page.Params.supervision }}
+{{ $teachings := $person_page.Params.phd_supervision }}
 
 <div class="flex flex-col items-center mx-auto w-full max-w-prose gap-3 justify-center">
 

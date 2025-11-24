@@ -543,20 +543,22 @@ supervision:
     date_start: "2025-04-01"
     date_end: "2025-07-01"
   - position: Predicting Weather-driven Crop Failures with Space-time Transformers
-    name: Mark Mitrani
+    name: Mark Mitrani (co-supervised with Melinda Galfi)
     company_name: Vrije Universiteit Amsterdam, MSc AI
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
     date_start: "2025-03-01"
     date_end: "2025-11-01"
+
+phd_supervision:
   - position: Deep learning for extended-range weather forecasting
-    name: Eliot Walt
-    company_name: Vrije Universiteit Amsterdam, PhD Environmental Studies
+    name: Eliot Walt (co-supervised with Dim Coumou)
+    company_name: Vrije Universiteit Amsterdam, Institute for Environmental Studies (IVM)
     company_url: ''
     <!-- company_logo: vrije_universiteit_amsterdam -->
     location: Amsterdam, The Netherlands
-    date_start: "2025-03-01"
+    date_start: "2025-02-01"
     date_end: ""
 
 # <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
