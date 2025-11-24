@@ -381,72 +381,81 @@ online_courses:
     url: "https://www.coursera.org/learn/addiction-and-the-brain"
 
 reviewer:
-  - date_end: "2024-10-01"
-    description: ""
+  - title: ICLR (International Conference on Learning Representations)
     <!-- organization: Iclr -->
-    organization_url: https://iclr.cc/Conferences/2025
-    title: ICLR (International Conference on Learning Representations)
-    url: "https://iclr.cc/Conferences/2025"
-  - date_end: "2023-10-01"
-    description: ""
+    organization_url: https://iclr.cc/
+    years:
+      - year: 2026
+        date_end: "2025-11-01"
+        url: "https://iclr.cc/Conferences/2026"
+      - year: 2025
+        date_end: "2024-10-01"
+        url: "https://iclr.cc/Conferences/2025"
+      - year: 2023
+        date_end: "2023-01-01"
+        url: "https://iclr.cc/Conferences/2023"
+  - title: ICML (International Conference on Machine Learning)
+    <!-- organization: Icml -->
+    organization_url: https://icml.cc/Conferences/
+    years:
+      - year: 2025
+        date_end: "2025-01-01"
+        url: "https://icml.cc/Conferences/2025"
+      - year: 2021
+        date_end: "2021-01-01"
+        url: "https://icml.cc/Conferences/2021"
+  - title: LoG (Learning on Graphs)
     <!-- organization: Log -->
-    organization_url: https://log2023.logconference.org/
-    title: LoG (Learning on Graphs)
-    url: "https://log2023.logconference.org/"
-  - date_end: "2023-08-01"
-    description: ""
+    organization_url: https://logconference.org/
+    years:
+      - year: 2023
+        date_end: "2023-10-01"
+        url: "https://log2023.logconference.org/"
+      - year: 2022
+        date_end: "2022-01-01"
+        url: "https://log2022.logconference.org/"
+  - title: NeurIPS (Neural Information Processing Systems)
     <!-- organization: Neurips -->
-    organization_url: https://neurips.cc/Conferences/2023
-    title: NeurIPS (Neural Information Processing Systems)
-    url: "https://neurips.cc/Conferences/2023"
-  - date_end: "2023-02-01"
-    description: ""
+    organization_url: https://neurips.cc/Conferences/
+    years:
+      - year: 2023
+        date_end: "2023-08-01"
+        url: "https://neurips.cc/Conferences/2023"
+  - title: CVPR (The IEEE/CVF Conference on Computer Vision and Pattern Recognition)
     <!-- organization: CVPR -->
-    organization_url: https://cvpr2023.thecvf.com/
-    title: CVPR (The IEEE/CVF Conference on Computer Vision and Pattern Recognition)
-    url: "https://cvpr2023.thecvf.com/"
-  - date_end: "2023-01-01"
-    description: ""
-    <!-- organization: Iclr -->
-    organization_url: https://iclr.cc/Conferences/2023
-    title: ICLR (International Conference on Learning Representations)
-    url: "https://iclr.cc/Conferences/2023"
-  - date_end: "2022-01-01"
-    description: ""
-    <!-- organization: Log -->
-    organization_url: http://log2022.logconference.org/
-    title: LoG (Learning on Graphs)
-    url: "http://log2022.logconference.org/"
-  - date_end: "2022-01-01"
-    description: ""
+    organization_url: https://cvpr.thecvf.com/
+    years:
+      - year: 2023
+        date_end: "2023-02-01"
+        url: "https://cvpr2023.thecvf.com/"
+  - title: CDS Workshop NeurIPS (A Causal View on Dynamical Systems)
     <!-- organization: Neurips -->
     organization_url: https://sites.google.com/view/caudyn2022
-    title: CDS Workshop NeurIPS (A Causal View on Dynamical Systems)
-    url: "https://sites.google.com/view/caudyn2022"
-  - date_end: "2022-01-01"
-    description: ""
+    years:
+      - year: 2022
+        date_end: "2022-01-01"
+        url: "https://sites.google.com/view/caudyn2022"
+  - title: CVIU (Computer Vision and Image Understanding)
     <!-- organization: Elsevier -->
     organization_url: https://www.sciencedirect.com/journal/computer-vision-and-image-understanding
-    title: CVIU (Computer Vision and Image Understanding)
-    url: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding"
-  - date_end: "2022-01-01"
-    description: ""
+    years:
+      - year: 2022
+        date_end: "2022-01-01"
+        url: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding"
+  - title: PAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)
     <!-- organization: Pami -->
     organization_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
-    title: PAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)
-    url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
-  - date_end: "2021-01-01"
-    description: ""
-    <!-- organization: Icml -->
-    organization_url: https://icml.cc/Conferences/2021
-    title: ICML (International Conference on Machine Learning)
-    url: "https://icml.cc/Conferences/2021"
-  - date_end: "2020-01-01"
-    description: ""
+    years:
+      - year: 2022
+        date_end: "2022-01-01"
+        url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+  - title: ECCV (European Conference on Computer Vision)
     <!-- organization: Eccv -->
-    organization_url: https://eccv2020.eu/
-    title: ECCV (European Conference on Computer Vision)
-    url: "https://eccv2020.eu/"
+    organization_url: https://eccv.ecva.net/
+    years:
+      - year: 2020
+        date_end: "2020-01-01"
+        url: "https://eccv2020.eu/"
 
 teaching:
   - position: Machine Learning I, Teaching Assistant
