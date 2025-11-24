@@ -24,7 +24,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoctoral researcher, AI for Climate
+role: Postdoctoral researcher, AIfor Climate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
