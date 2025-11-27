@@ -42,7 +42,7 @@ abstract: Despite the recent advances in local feature matching, dealing with af
 # Summary. An optional shortened abstract.
 summary: Rotation equivariant feature detection-and-description based on steerable group convolutions
 
-tags: []
+tags: [Equivariance, CNNs, Rotation Equivariance, Steerable Group Convolutions]
 
 # Display this page in the Featured widget?
 featured: true

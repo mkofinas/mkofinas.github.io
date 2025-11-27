@@ -36,7 +36,7 @@ abstract: Modelling interactions is critical in learning complex dynamical syste
 # Summary. An optional shortened abstract.
 summary: Equivariance via canonicalized object-centric local frames in geometric graphs
 
-tags: []
+tags: [Graph Neural Networks, Geometric Graphs, Equivariance, Local Frames, Roto-translation Equivariance, Interacting Dynamical Systems]
 
 # Display this page in the Featured widget?
 featured: true

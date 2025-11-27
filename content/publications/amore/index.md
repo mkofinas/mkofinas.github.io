@@ -38,7 +38,7 @@ abstract: Hybrid dynamical systems are prevalent in science and engineering to e
 # Summary. An optional shortened abstract.
 summary: Amortized Equation Discovery in Hybrid Dynamical Systems
 
-tags: []
+tags: [Equation Discovery, Dynamical Systems, Hybrid Dynamical Systems]
 
 # Display this page in the Featured widget?
 featured: true

@@ -56,7 +56,7 @@ abstract: Learning in weight spaces, where neural networks process the weights o
 # Summary. An optional shortened abstract.
 summary: Data Augmentations in Deep Weight Spaces
 
-tags: []
+tags: [Parameter-space Networks, Data Augmentations]
 
 # Display this page in the Featured widget?
 featured: true

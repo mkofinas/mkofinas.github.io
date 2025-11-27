@@ -46,7 +46,7 @@ abstract: Conventional Computed Tomography (CT) methods require large numbers of
 # Summary. An optional shortened abstract.
 summary: Neural Modulation Fields for Conditional Cone Beam Neural Tomography
 
-tags: []
+tags: [Neural Fields, Neural Tomography, Conditional Neural Fields]
 
 # Display this page in the Featured widget?
 featured: true

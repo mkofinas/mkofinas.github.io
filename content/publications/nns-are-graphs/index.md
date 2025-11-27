@@ -42,7 +42,13 @@ abstract: Neural networks that can process the parameters of other neural networ
 # Summary. An optional shortened abstract.
 summary: Neural Networks Are Graphs! Graph Neural Networks for Equivariant Processing of Neural Networks
 
-tags: []
+tags:
+  - Parameter-space Networks
+  - Graph Neural Networks
+  - Transformers
+  - Equivariance
+  - Neural Fields
+  - Implicit Neural Representations
 
 # Display this page in the Featured widget?
 featured: true

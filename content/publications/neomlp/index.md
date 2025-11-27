@@ -37,7 +37,7 @@ abstract: Neural fields (NeFs) have recently emerged as a state-of-the-art metho
 # Summary. An optional shortened abstract.
 summary: "From MLP to NeoMLP: Leveraging Self-Attention for Neural Fields"
 
-tags: []
+tags: [Neural Fields, Transformers, Self-Attention, Conditional Neural Fields]
 
 # Display this page in the Featured widget?
 featured: true

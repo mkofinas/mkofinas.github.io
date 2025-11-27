@@ -38,7 +38,7 @@ abstract: Dynamical systems with complex behaviours, e.g. immune system cells in
 # Summary. An optional shortened abstract.
 summary: Graph Switching Dynamical Systems
 
-tags: []
+tags: [Dynamical Systems, Switching Dynamical Systems]
 
 # Display this page in the Featured widget?
 featured: true

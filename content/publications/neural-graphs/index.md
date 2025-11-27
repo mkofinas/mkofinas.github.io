@@ -48,7 +48,7 @@ abstract: Neural networks that process the parameters of other neural networks f
 summary: Graph Neural Networks for Learning Equivariant Representations of Neural Networks
 
 tags:
-  - Parameter-space networks
+  - Parameter-space Networks
   - Graph Neural Networks
   - Transformers
   - Equivariance

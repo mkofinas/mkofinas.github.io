@@ -596,4 +596,4 @@ from the Aristotle University of Thessaloniki. For my Diploma thesis,
 I researched the topic of Scene Graph Generation using Graph Neural Networks,
 supervised by [Christos Diou](https://diou.github.io/) and [Anastasios Delopoulos](https://mug.ee.auth.gr/people/anastasios-delopoulos/).
 During my studies, I was a computer vision & machine learning engineer at
-[P.A.N.D.O.R.A. Robotics](https://pandora.ee.auth.gr/pandora-robotics/).
+[P.A.N.D.O.R.A. Robotics](https://issel.ee.auth.gr/pandora-robotics/).

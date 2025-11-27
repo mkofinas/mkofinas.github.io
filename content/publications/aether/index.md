@@ -38,7 +38,7 @@ abstract: Systems of interacting objects often evolve under the influence of und
 # Summary. An optional shortened abstract.
 summary: We discover global fields in interacting systems, inferring them from the dynamics alone, using neural fields.
 
-tags: []
+tags: [Neural Fields, Field Discovery, Interacting Dynamical Systems, Graph Neural Networks, Equivariance, Entangled Equivariance]
 
 # Display this page in the Featured widget?
 featured: true
