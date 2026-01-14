@@ -21,8 +21,8 @@ authors:
 
 # Author notes (optional)
 author_notes:
-- Bar Ilan University
-- University of Amsterdam
+- Bar Ilan University. Equal contribution.
+- University of Amsterdam. Equal contribution.
 - Bar Ilan University
 - Samsung - SAIT AI Lab, Montreal
 - University of Amsterdam

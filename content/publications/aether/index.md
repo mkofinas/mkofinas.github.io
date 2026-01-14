@@ -31,7 +31,7 @@ publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: In Advances in Neural Information Processing Systems 36, NeurIPS 2023
-publication_short: In NeurIPS 2023*
+publication_short: In NeurIPS 2023
 
 abstract: Systems of interacting objects often evolve under the influence of underlying field effects that govern their dynamics, yet previous works have abstracted away from such effects, and assume that systems evolve in a vacuum. In this work, we focus on discovering these fields, and infer them from the observed dynamics alone, without directly observing them. We theorize the presence of latent force fields, and propose neural fields to learn them. Since the observed dynamics constitute the net effect of local object interactions and global field effects, recently popularized equivariant networks are inapplicable, as they fail to capture global information. To address this, we propose to disentangle local object interactions --which are SE(3) equivariant and depend on relative states-- from external global field effects --which depend on absolute states. We model the interactions with equivariant graph networks, and combine them with neural fields in a novel graph network that integrates field forces. Our experiments show that we can accurately discover the underlying fields in charged particles settings, traffic scenes, and gravitational n-body problems, and effectively use them to learn the system and forecast future trajectories.
 
@@ -52,11 +52,11 @@ links:
 - name: Zenodo
   url: https://doi.org/10.5281/zenodo.10634923
 - type: pdf
-  url: 'publication/aether/aether_neurips_2023.pdf'
+  url: 'publications/aether/aether_neurips_2023.pdf'
 - type: code
   url: 'https://github.com/mkofinas/aether'
 - type: poster
-  url: 'publication/aether/aether_neurips_2023_poster.pdf'
+  url: 'publications/aether/aether_neurips_2023_poster.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

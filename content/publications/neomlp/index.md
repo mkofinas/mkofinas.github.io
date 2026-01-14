@@ -47,7 +47,7 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2412.08731
 - type: pdf
-  url: 'publication/neomlp/neomlp_preprint_2024.pdf'
+  url: 'publications/neomlp/neomlp_preprint_2024.pdf'
 - type: code
   url: 'https://github.com/mkofinas/neomlp'
 

@@ -40,7 +40,7 @@ publication_types: ["paper-conference"]
 # Publication name and optional abbreviated publication name.
 publication: In 12th International Conference on Learning Representations, ICLR 2024
 
-publication_short: In ICLR, 2024*
+publication_short: In ICLR 2024
 
 abstract: Neural networks that process the parameters of other neural networks find applications in domains as diverse as classifying implicit neural representations, generating neural network weights, and predicting generalization errors. However, existing approaches either overlook the inherent permutation symmetry in the neural network or rely on intricate weight-sharing patterns to achieve equivariance, while ignoring the impact of the network architecture itself. In this work, we propose to represent neural networks as computational graphs of parameters, which allows us to harness powerful graph neural networks and transformers that preserve permutation symmetry. Consequently, our approach enables a single model to encode neural computational graphs with diverse architectures. We showcase the effectiveness of our method on a wide range of tasks, including classification and editing of implicit neural representations, predicting generalization performance, and learning to optimize, while consistently outperforming state-of-the-art methods.
 
@@ -67,7 +67,7 @@ links:
 - name: Zenodo
   url: https://doi.org/10.5281/zenodo.12797219
 - type: pdf
-  url: 'publication/neural-graphs/neural_graphs_iclr_2024.pdf'
+  url: 'publications/neural-graphs/neural_graphs_iclr_2024.pdf'
 - type: code
   url: 'https://github.com/mkofinas/neural-graphs'
 - type: poster

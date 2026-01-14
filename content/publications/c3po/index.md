@@ -14,11 +14,11 @@ authors:
 
 # Author notes (optional)
 author_notes:
-- University of Amsterdam
-- University of Amsterdam
-- University of Amsterdam
-- University of Amsterdam
-- University of Amsterdam
+- University of Amsterdam. Equal contribution.
+- University of Amsterdam. Equal contribution.
+- University of Amsterdam. Equal contribution.
+- University of Amsterdam. Equal contribution.
+- University of Amsterdam. Equal contribution.
 - University of Amsterdam
 
 date: "2022-08-01T00:00:00Z"
@@ -52,13 +52,13 @@ links:
 - name: OpenReview
   url: https://openreview.net/forum?id=dXouQ9ubkPJ
 - name: Slides (PPTX)
-  url: publication/c3po/eccv_2022_c3po_presentation.pptx
+  url: publications/c3po/eccv_2022_c3po_presentation.pptx
 - type: pdf
-  url: 'publication/c3po/eccv_2022_c3po_camera_ready.pdf'
+  url: 'publications/c3po/eccv_2022_c3po_camera_ready.pdf'
 - type: code
   url: 'https://github.com/bpiyush/rotation-equivariant-lfm'
 - type: poster
-  url: 'publication/c3po/eccv_2022_c3po_poster.pdf'
+  url: 'publications/c3po/eccv_2022_c3po_poster.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
