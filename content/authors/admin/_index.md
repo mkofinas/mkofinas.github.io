@@ -381,6 +381,13 @@ online_courses:
     url: "https://www.coursera.org/learn/addiction-and-the-brain"
 
 reviewer:
+  - title: "ICML 2026 Workshop on Weight-Space Symmetries: from Foundations to Practical Applications"
+    <!-- organization: Iclr -->
+    organization_url: https://www.weightsymmetry.com/
+    years:
+      - year: 2026
+        date_end: "2025-11-01"
+        url: "https://www.weightsymmetry.com/"
   - title: ICLR (International Conference on Learning Representations)
     <!-- organization: Iclr -->
     organization_url: https://iclr.cc/
