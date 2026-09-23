@@ -45,7 +45,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: arXiv
+- icon: custom/arxiv
+  name: arXiv
   url: https://arxiv.org/abs/2406.03818
 - type: code
   url: 'https://github.com/yongtuoliu/Amortized-Equation-Discovery-in-Hybrid-Dynamical-Systems'

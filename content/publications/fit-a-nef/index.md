@@ -53,7 +53,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: arXiv
+- icon: custom/arxiv
+  name: arXiv
   url: https://arxiv.org/abs/2312.10531
 - name: Neural Field Arena
   url: https://github.com/samuelepapa/neural-field-arena

@@ -63,7 +63,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: arXiv
+- icon: custom/arxiv
+  name: arXiv
   url: https://arxiv.org/abs/2311.08851
 - type: poster
   url: 'DWS-AUG-Poster.pdf'

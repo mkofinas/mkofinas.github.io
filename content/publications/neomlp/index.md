@@ -44,7 +44,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: arXiv
+- icon: custom/arxiv
+  name: arXiv
   url: https://arxiv.org/abs/2412.08731
 - type: pdf
   url: 'publications/neomlp/neomlp_preprint_2024.pdf'

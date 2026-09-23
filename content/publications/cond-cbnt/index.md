@@ -53,7 +53,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: arXiv
+- icon: custom/arxiv
+  name: arXiv
   url: https://arxiv.org/abs/2307.08351
 - type: poster
   url: 'condcbnt.pdf'
