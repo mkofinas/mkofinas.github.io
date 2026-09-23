@@ -50,7 +50,7 @@ profiles:
 #   link: https://www.semanticscholar.org/author/2135380233
 - icon: brands/github
   link: https://github.com/mkofinas
-- icon: custom/gitlab_gray
+- icon: custom/gitlab
   link: https://gitlab.com/mkofinas
 
 interests:
