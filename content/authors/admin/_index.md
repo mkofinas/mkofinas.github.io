@@ -566,6 +566,14 @@ supervision:
     location: Amsterdam, The Netherlands
     date_start: "2025-03-01"
     date_end: "2025-11-01"
+  - position: "ViTAA: Uncovering extreme and persistent atmospheric patterns using Vision Transformers"
+    name: Kevin Belderbos
+    company_name: Vrije Universiteit Amsterdam, MSc AI
+    company_url: ''
+    <!-- company_logo: vrije_universiteit_amsterdam -->
+    location: Amsterdam, The Netherlands
+    date_start: "2026-02-01"
+    date_end: "2026-10-01"
 
 phd_supervision:
   - position: Deep learning for extended-range weather forecasting
